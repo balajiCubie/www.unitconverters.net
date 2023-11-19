@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.unitconverters.net/radiation-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 04:02:38 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Radiation Converter</title>
+	<meta name="description"
+		content="Free online radiation converter - converts between 22 units of radiation, including gray/second [Gy/s], exagray/second [EGy/s], petagray/second [PGy/s], teragray/second [TGy/s], etc. Also, explore many other unit converters or learn more about radiation unit conversions." />
+	<link rel="stylesheet" href="http://d15gdne58bo42a.cloudfront.net/style-n.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://d15gdne58bo42a.cloudfront.net/js/common.js" async></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="http://d15gdne58bo42a.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d15gdne58bo42a.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d15gdne58bo42a.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<div id="headerout">
+		<div id="header">
+			<div id="logo"><a href="index.html"><img src="http://d15gdne58bo42a.cloudfront.net/images/logo.svg"
+						width="288" height="28" alt="UnitConverters.net"></a></div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="contentout">
+		<div id="content">
+			<img src="http://d15gdne58bo42a.cloudfront.net/images/calculator.svg" width="22" height="31" align="right"
+				border="0" onClick="quickCaclShow('');" alt="calculator">
+			<div class="topnav"><a href="index.html">Home</a> / <a href='radiology-converters.html'>Radiology
+					Converters</a> / Radiation Converter</div>
+			<h1>Radiation Converter</h1>
+			<div id="unquickcalc" style="display:none;"></div>
+
+			<div id="ucresult" class="ucresulttext"></div>
+			<form>
+				<table id="uctable">
+					<tr>
+						<td class="uccell"><label for="ucfrom">From:</label><br><input type="text" name="ucfrom"
+								class="ucinput" id="ucfrom" onKeyUp="ucUpdateResult();" autofocus></td>
+						<td class="uccell"><label for="ucto">To:</label><br><input type="text" name="ucto"
+								class="ucinput" id="ucto" style="background-color:#eeeeee;" readonly></td>
+					</tr>
+					<tr>
+						<td class="uccell">
+							<select name="ucfromunit" id="ucfromunit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="gray/second [Gy/s] [1.0E+18]" selected>gray/second [Gy/s]</option>
+								<option value="exagray/second [EGy/s] [1]">exagray/second [EGy/s]</option>
+								<option value="petagray/second [PGy/s] [1000]">petagray/second [PGy/s]</option>
+								<option value="teragray/second [TGy/s] [1000000]">teragray/second [TGy/s]</option>
+								<option value="gigagray/second [GGy/s] [1000000000]">gigagray/second [GGy/s]</option>
+								<option value="megagray/second [MGy/s] [1000000000000]">megagray/second [MGy/s]</option>
+								<option value="kilogray/second [kGy/s] [1.0E+15]">kilogray/second [kGy/s]</option>
+								<option value="hectogray/second [hGy/s] [1.0E+16]">hectogray/second [hGy/s]</option>
+								<option value="dekagray/second [daGy/s] [1.0E+17]">dekagray/second [daGy/s]</option>
+								<option value="decigray/second [dGy/s] [1.0E+19]">decigray/second [dGy/s]</option>
+								<option value="centigray/second [cGy/s] [1.0E+20]">centigray/second [cGy/s]</option>
+								<option value="milligray/second [mGy/s] [1.0E+21]">milligray/second [mGy/s]</option>
+								<option value="microgray/second [&#181;Gy/s] [1.0E+24]">microgray/second [&#181;Gy/s]
+								</option>
+								<option value="nanogray/second [nGy/s] [1.0E+27]">nanogray/second [nGy/s]</option>
+								<option value="picogray/second [pGy/s] [1.0E+30]">picogray/second [pGy/s]</option>
+								<option value="femtogray/second [fGy/s] [1.0E+33]">femtogray/second [fGy/s]</option>
+								<option value="attogray/second [aGy/s] [1.0E+36]">attogray/second [aGy/s]</option>
+								<option value="rad/second [rd/s, rad/s] [1.0E+20]">rad/second [rd/s, rad/s]</option>
+								<option value="joule/kilogram/second [1.0E+18]">joule/kilogram/second</option>
+								<option value="watt/kilogram [W/kg] [1.0E+18]">watt/kilogram [W/kg]</option>
+								<option value="sievert/second [Sv/s] [1.0E+18]">sievert/second [Sv/s]</option>
+								<option value="rem/second [rem/s] [1.0E+20]">rem/second [rem/s]</option>
+							</select>
+						</td>
+						<td class="uccell">
+							<select name="uctounit" id="uctounit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="gray/second [Gy/s] [1.0E+18]">gray/second [Gy/s]</option>
+								<option value="exagray/second [EGy/s] [1]" selected>exagray/second [EGy/s]</option>
+								<option value="petagray/second [PGy/s] [1000]">petagray/second [PGy/s]</option>
+								<option value="teragray/second [TGy/s] [1000000]">teragray/second [TGy/s]</option>
+								<option value="gigagray/second [GGy/s] [1000000000]">gigagray/second [GGy/s]</option>
+								<option value="megagray/second [MGy/s] [1000000000000]">megagray/second [MGy/s]</option>
+								<option value="kilogray/second [kGy/s] [1.0E+15]">kilogray/second [kGy/s]</option>
+								<option value="hectogray/second [hGy/s] [1.0E+16]">hectogray/second [hGy/s]</option>
+								<option value="dekagray/second [daGy/s] [1.0E+17]">dekagray/second [daGy/s]</option>
+								<option value="decigray/second [dGy/s] [1.0E+19]">decigray/second [dGy/s]</option>
+								<option value="centigray/second [cGy/s] [1.0E+20]">centigray/second [cGy/s]</option>
+								<option value="milligray/second [mGy/s] [1.0E+21]">milligray/second [mGy/s]</option>
+								<option value="microgray/second [&#181;Gy/s] [1.0E+24]">microgray/second [&#181;Gy/s]
+								</option>
+								<option value="nanogray/second [nGy/s] [1.0E+27]">nanogray/second [nGy/s]</option>
+								<option value="picogray/second [pGy/s] [1.0E+30]">picogray/second [pGy/s]</option>
+								<option value="femtogray/second [fGy/s] [1.0E+33]">femtogray/second [fGy/s]</option>
+								<option value="attogray/second [aGy/s] [1.0E+36]">attogray/second [aGy/s]</option>
+								<option value="rad/second [rd/s, rad/s] [1.0E+20]">rad/second [rd/s, rad/s]</option>
+								<option value="joule/kilogram/second [1.0E+18]">joule/kilogram/second</option>
+								<option value="watt/kilogram [W/kg] [1.0E+18]">watt/kilogram [W/kg]</option>
+								<option value="sievert/second [Sv/s] [1.0E+18]">sievert/second [Sv/s]</option>
+								<option value="rem/second [rem/s] [1.0E+20]">rem/second [rem/s]</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<script>noValidation = 0;</script><br>
+			<h3>Complete list of radiation units for conversion</h3>
+			<ul class="allunits">
+				<li>gray/second [Gy/s]</li>
+				<li>1 exagray/second [EGy/s] = 1.0E+18 gray/second [Gy/s]<div><a
+							href="radiation/exagray-second-to-gray-second.html">exagray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-exagray-second.html">gray/second to exagray/second</a>
+					</div>
+				</li>
+				<li>1 petagray/second [PGy/s] = 1.0E+15 gray/second [Gy/s]<div><a
+							href="radiation/petagray-second-to-gray-second.html">petagray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-petagray-second.html">gray/second to
+							petagray/second</a></div>
+				</li>
+				<li>1 teragray/second [TGy/s] = 1000000000000 gray/second [Gy/s]<div><a
+							href="radiation/teragray-second-to-gray-second.html">teragray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-teragray-second.html">gray/second to
+							teragray/second</a></div>
+				</li>
+				<li>1 gigagray/second [GGy/s] = 1000000000 gray/second [Gy/s]<div><a
+							href="radiation/gigagray-second-to-gray-second.html">gigagray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-gigagray-second.html">gray/second to
+							gigagray/second</a></div>
+				</li>
+				<li>1 megagray/second [MGy/s] = 1000000 gray/second [Gy/s]<div><a
+							href="radiation/megagray-second-to-gray-second.html">megagray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-megagray-second.html">gray/second to
+							megagray/second</a></div>
+				</li>
+				<li>1 kilogray/second [kGy/s] = 1000 gray/second [Gy/s]<div><a
+							href="radiation/kilogray-second-to-gray-second.html">kilogray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-kilogray-second.html">gray/second to
+							kilogray/second</a></div>
+				</li>
+				<li>1 hectogray/second [hGy/s] = 100 gray/second [Gy/s]<div><a
+							href="radiation/hectogray-second-to-gray-second.html">hectogray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-hectogray-second.html">gray/second to
+							hectogray/second</a></div>
+				</li>
+				<li>1 dekagray/second [daGy/s] = 10 gray/second [Gy/s]<div><a
+							href="radiation/dekagray-second-to-gray-second.html">dekagray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-dekagray-second.html">gray/second to
+							dekagray/second</a></div>
+				</li>
+				<li>1 decigray/second [dGy/s] = 0.1 gray/second [Gy/s]<div><a
+							href="radiation/decigray-second-to-gray-second.html">decigray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-decigray-second.html">gray/second to
+							decigray/second</a></div>
+				</li>
+				<li>1 centigray/second [cGy/s] = 0.01 gray/second [Gy/s]<div><a
+							href="radiation/centigray-second-to-gray-second.html">centigray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-centigray-second.html">gray/second to
+							centigray/second</a></div>
+				</li>
+				<li>1 milligray/second [mGy/s] = 0.001 gray/second [Gy/s]<div><a
+							href="radiation/milligray-second-to-gray-second.html">milligray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-milligray-second.html">gray/second to
+							milligray/second</a></div>
+				</li>
+				<li>1 microgray/second [&#181;Gy/s] = 1.0E-6 gray/second [Gy/s]<div><a
+							href="radiation/microgray-second-to-gray-second.html">microgray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-microgray-second.html">gray/second to
+							microgray/second</a></div>
+				</li>
+				<li>1 nanogray/second [nGy/s] = 1.0E-9 gray/second [Gy/s]<div><a
+							href="radiation/nanogray-second-to-gray-second.html">nanogray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-nanogray-second.html">gray/second to
+							nanogray/second</a></div>
+				</li>
+				<li>1 picogray/second [pGy/s] = 1.0E-12 gray/second [Gy/s]<div><a
+							href="radiation/picogray-second-to-gray-second.html">picogray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-picogray-second.html">gray/second to
+							picogray/second</a></div>
+				</li>
+				<li>1 femtogray/second [fGy/s] = 1.0E-15 gray/second [Gy/s]<div><a
+							href="radiation/femtogray-second-to-gray-second.html">femtogray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-femtogray-second.html">gray/second to
+							femtogray/second</a></div>
+				</li>
+				<li>1 attogray/second [aGy/s] = 1.0E-18 gray/second [Gy/s]<div><a
+							href="radiation/attogray-second-to-gray-second.html">attogray/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-attogray-second.html">gray/second to
+							attogray/second</a></div>
+				</li>
+				<li>1 rad/second [rd/s, rad/s] = 0.01 gray/second [Gy/s]<div><a
+							href="radiation/rad-second-to-gray-second.html">rad/second to gray/second</a>, &nbsp; <a
+							href="radiation/gray-second-to-rad-second.html">gray/second to rad/second</a></div>
+				</li>
+				<li>1 joule/kilogram/second = 1 gray/second [Gy/s]<div><a
+							href="radiation/joule-kilogram-second-to-gray-second.html">joule/kilogram/second to
+							gray/second</a>, &nbsp; <a
+							href="radiation/gray-second-to-joule-kilogram-second.html">gray/second to
+							joule/kilogram/second</a></div>
+				</li>
+				<li>1 watt/kilogram [W/kg] = 1 gray/second [Gy/s]<div><a
+							href="radiation/watt-kilogram-to-gray-second.html">watt/kilogram to gray/second</a>, &nbsp;
+						<a href="radiation/gray-second-to-watt-kilogram.html">gray/second to watt/kilogram</a></div>
+				</li>
+				<li>1 sievert/second [Sv/s] = 1 gray/second [Gy/s]<div><a
+							href="radiation/sievert-second-to-gray-second.html">sievert/second to gray/second</a>,
+						&nbsp; <a href="radiation/gray-second-to-sievert-second.html">gray/second to sievert/second</a>
+					</div>
+				</li>
+				<li>1 rem/second [rem/s] = 0.01 gray/second [Gy/s]<div><a
+							href="radiation/rem-second-to-gray-second.html">rem/second to gray/second</a>, &nbsp; <a
+							href="radiation/gray-second-to-rem-second.html">gray/second to rem/second</a></div>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<div id="rightAdUnit" style="text-align:center;">
+				<div style="min-height:280px; text-align:center;">
+					<script async src="../securepubads.g.doubleclick.net/tag/js/f.txt"></script>
+					<script>
+						window.googletag = window.googletag || { cmd: [] };
+						googletag.cmd.push(function () {
+							googletag.defineSlot('/1057446/UnitConverters-Top-Right-Desktop', [[336, 280], [300, 250]], 'div-gpt-ad-1589566514232-0').addService(googletag.pubads());
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					</script>
+					<!-- /1057446/UnitConverters-Top-Right-Desktop -->
+					<div id='div-gpt-ad-1589566514232-0'>
+						<script>
+							googletag.cmd.push(function () { googletag.display('div-gpt-ad-1589566514232-0'); });
+						</script>
+					</div>
+				</div>
+				<br>
+			</div><br>
+			<div id="othercalc"></div>
+			<script>var navSectionName = "Radiology Converters";</script>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="footer">
+		<div id="footerin">
+			<div id="footernav"><a href="about-us.html">about us</a> | <a href="about-us.html#terms">terms of use</a> |
+				<a href="about-us.html#privacy">privacy policy</a> | <a href="sitemap.html">sitemap</a> &nbsp; &copy;
+				2008 - 2023 <a href="index.html">unitconverters.net</a></div>
+		</div>
+	</div>
+</body>
+
+<!-- Mirrored from www.unitconverters.net/radiation-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 04:03:08 GMT -->
+
+</html>

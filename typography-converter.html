@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.unitconverters.net/typography-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 04:06:08 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Typography Converter</title>
+	<meta name="description"
+		content="Free online typography converter - converts between 15 units of typography, including twip, meter [m], centimeter [cm], millimeter [mm], etc. Also, explore many other unit converters or learn more about typography unit conversions." />
+	<link rel="stylesheet" href="http://d15gdne58bo42a.cloudfront.net/style-n.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://d15gdne58bo42a.cloudfront.net/js/common.js" async></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="http://d15gdne58bo42a.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d15gdne58bo42a.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d15gdne58bo42a.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<div id="headerout">
+		<div id="header">
+			<div id="logo"><a href="index.html"><img src="http://d15gdne58bo42a.cloudfront.net/images/logo.svg"
+						width="288" height="28" alt="UnitConverters.net"></a></div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="contentout">
+		<div id="content">
+			<img src="http://d15gdne58bo42a.cloudfront.net/images/calculator.svg" width="22" height="31" align="right"
+				border="0" onClick="quickCaclShow('');" alt="calculator">
+			<div class="topnav"><a href="index.html">Home</a> / <a href='other-converters.html'>Other Converters</a> /
+				Typography Converter</div>
+			<h1>Typography Converter</h1>
+			<div id="unquickcalc" style="display:none;"></div>
+
+			<div id="ucresult" class="ucresulttext"></div>
+			<form>
+				<table id="uctable">
+					<tr>
+						<td class="uccell"><label for="ucfrom">From:</label><br><input type="text" name="ucfrom"
+								class="ucinput" id="ucfrom" onKeyUp="ucUpdateResult();" autofocus></td>
+						<td class="uccell"><label for="ucto">To:</label><br><input type="text" name="ucto"
+								class="ucinput" id="ucto" style="background-color:#eeeeee;" readonly></td>
+					</tr>
+					<tr>
+						<td class="uccell">
+							<select name="ucfromunit" id="ucfromunit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="twip [1]" selected>twip</option>
+								<option value="meter [m] [1.7638888888889E-5]">meter [m]</option>
+								<option value="centimeter [cm] [0.0017638888888889]">centimeter [cm]</option>
+								<option value="millimeter [mm] [0.017638888888889]">millimeter [mm]</option>
+								<option value="character (X) [0.0083333333333333]">character (X)</option>
+								<option value="character (Y) [0.0041666666666667]">character (Y)</option>
+								<option value="pixel (X) [0.066666666666667]">pixel (X)</option>
+								<option value="pixel (Y) [0.066666666666667]">pixel (Y)</option>
+								<option value="inch [in] [0.00069444444444444]">inch [in]</option>
+								<option value="pica (computer) [0.0041666666666667]">pica (computer)</option>
+								<option value="pica (printer's) [0.0041822917084896]">pica (printer's)</option>
+								<option value="PostScript point [0.05]">PostScript point</option>
+								<option value="point (computer) [0.05]">point (computer)</option>
+								<option value="point (printer's) [0.0501875]">point (printer's)</option>
+								<option value="en [0.100375]">en</option>
+							</select>
+						</td>
+						<td class="uccell">
+							<select name="uctounit" id="uctounit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="twip [1]">twip</option>
+								<option value="meter [m] [1.7638888888889E-5]" selected>meter [m]</option>
+								<option value="centimeter [cm] [0.0017638888888889]">centimeter [cm]</option>
+								<option value="millimeter [mm] [0.017638888888889]">millimeter [mm]</option>
+								<option value="character (X) [0.0083333333333333]">character (X)</option>
+								<option value="character (Y) [0.0041666666666667]">character (Y)</option>
+								<option value="pixel (X) [0.066666666666667]">pixel (X)</option>
+								<option value="pixel (Y) [0.066666666666667]">pixel (Y)</option>
+								<option value="inch [in] [0.00069444444444444]">inch [in]</option>
+								<option value="pica (computer) [0.0041666666666667]">pica (computer)</option>
+								<option value="pica (printer's) [0.0041822917084896]">pica (printer's)</option>
+								<option value="PostScript point [0.05]">PostScript point</option>
+								<option value="point (computer) [0.05]">point (computer)</option>
+								<option value="point (printer's) [0.0501875]">point (printer's)</option>
+								<option value="en [0.100375]">en</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<script>noValidation = 0;</script><br>
+			<h3>Complete list of typography units for conversion</h3>
+			<ul class="allunits">
+				<li>twip</li>
+				<li>1 meter [m] = 56692.913385826 twip<div><a href="typography/meter-to-twip.html">meter to twip</a>,
+						&nbsp; <a href="typography/twip-to-meter.html">twip to meter</a></div>
+				</li>
+				<li>1 centimeter [cm] = 566.9291338583 twip<div><a href="typography/centimeter-to-twip.html">centimeter
+							to twip</a>, &nbsp; <a href="typography/twip-to-centimeter.html">twip to centimeter</a>
+					</div>
+				</li>
+				<li>1 millimeter [mm] = 56.6929133858 twip<div><a href="typography/millimeter-to-twip.html">millimeter
+							to twip</a>, &nbsp; <a href="typography/twip-to-millimeter.html">twip to millimeter</a>
+					</div>
+				</li>
+				<li>1 character (X) = 120 twip<div><a href="typography/character-x-to-twip.html">character (X) to
+							twip</a>, &nbsp; <a href="typography/twip-to-character-x.html">twip to character (X)</a>
+					</div>
+				</li>
+				<li>1 character (Y) = 240 twip<div><a href="typography/character-y-to-twip.html">character (Y) to
+							twip</a>, &nbsp; <a href="typography/twip-to-character-y.html">twip to character (Y)</a>
+					</div>
+				</li>
+				<li>1 pixel (X) = 15 twip<div><a href="typography/pixel-x-to-twip.html">pixel (X) to twip</a>, &nbsp; <a
+							href="typography/twip-to-pixel-x.html">twip to pixel (X)</a></div>
+				</li>
+				<li>1 pixel (Y) = 15 twip<div><a href="typography/pixel-y-to-twip.html">pixel (Y) to twip</a>, &nbsp; <a
+							href="typography/twip-to-pixel-y.html">twip to pixel (Y)</a></div>
+				</li>
+				<li>1 inch [in] = 1440 twip<div><a href="typography/inch-to-twip.html">inch to twip</a>, &nbsp; <a
+							href="typography/twip-to-inch.html">twip to inch</a></div>
+				</li>
+				<li>1 pica (computer) = 240 twip<div><a href="typography/pica-computer-to-twip.html">pica (computer) to
+							twip</a>, &nbsp; <a href="typography/twip-to-pica-computer.html">twip to pica (computer)</a>
+					</div>
+				</li>
+				<li>1 pica (printer's) = 239.10336 twip<div><a href="typography/pica-printer-s-to-twip.html">pica
+							(printer's) to twip</a>, &nbsp; <a href="typography/twip-to-pica-printer-s.html">twip to
+							pica (printer's)</a></div>
+				</li>
+				<li>1 PostScript point = 20 twip<div><a href="typography/postscript-point-to-twip.html">PostScript point
+							to twip</a>, &nbsp; <a href="typography/twip-to-postscript-point.html">twip to PostScript
+							point</a></div>
+				</li>
+				<li>1 point (computer) = 20 twip<div><a href="typography/point-computer-to-twip.html">point (computer)
+							to twip</a>, &nbsp; <a href="typography/twip-to-point-computer.html">twip to point
+							(computer)</a></div>
+				</li>
+				<li>1 point (printer's) = 19.9252801993 twip<div><a href="typography/point-printer-s-to-twip.html">point
+							(printer's) to twip</a>, &nbsp; <a href="typography/twip-to-point-printer-s.html">twip to
+							point (printer's)</a></div>
+				</li>
+				<li>1 en = 9.9626400996 twip<div><a href="typography/en-to-twip.html">en to twip</a>, &nbsp; <a
+							href="typography/twip-to-en.html">twip to en</a></div>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<div id="rightAdUnit" style="text-align:center;">
+				<div style="min-height:280px; text-align:center;">
+					<script async src="../securepubads.g.doubleclick.net/tag/js/f.txt"></script>
+					<script>
+						window.googletag = window.googletag || { cmd: [] };
+						googletag.cmd.push(function () {
+							googletag.defineSlot('/1057446/UnitConverters-Top-Right-Desktop', [[336, 280], [300, 250]], 'div-gpt-ad-1589566514232-0').addService(googletag.pubads());
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					</script>
+					<!-- /1057446/UnitConverters-Top-Right-Desktop -->
+					<div id='div-gpt-ad-1589566514232-0'>
+						<script>
+							googletag.cmd.push(function () { googletag.display('div-gpt-ad-1589566514232-0'); });
+						</script>
+					</div>
+				</div>
+				<br>
+			</div><br>
+			<div id="othercalc"></div>
+			<script>var navSectionName = "";</script>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="footer">
+		<div id="footerin">
+			<div id="footernav"><a href="about-us.html">about us</a> | <a href="about-us.html#terms">terms of use</a> |
+				<a href="about-us.html#privacy">privacy policy</a> | <a href="sitemap.html">sitemap</a> &nbsp; &copy;
+				2008 - 2023 <a href="index.html">unitconverters.net</a></div>
+		</div>
+	</div>
+</body>
+
+<!-- Mirrored from www.unitconverters.net/typography-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 04:06:18 GMT -->
+
+</html>

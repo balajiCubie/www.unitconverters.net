@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.unitconverters.net/currency-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:47:30 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Currency Converter</title>
+	<meta name="description"
+		content="Free online currency converter - converts between 154 units of currency, including USD [United States Dollar], EUR [Euro], AUD [Australian Dollar], CAD [Canadian Dollar], etc. Also, explore many other unit converters or learn more about currency unit conversions." />
+	<link rel="stylesheet" href="http://d15gdne58bo42a.cloudfront.net/style-n.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://d15gdne58bo42a.cloudfront.net/js/common.js" async></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="http://d15gdne58bo42a.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d15gdne58bo42a.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d15gdne58bo42a.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<div id="headerout">
+		<div id="header">
+			<div id="logo"><a href="index.html"><img src="http://d15gdne58bo42a.cloudfront.net/images/logo.svg"
+						width="288" height="28" alt="UnitConverters.net"></a></div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="contentout">
+		<div id="content">
+			<img src="http://d15gdne58bo42a.cloudfront.net/images/calculator.svg" width="22" height="31" align="right"
+				border="0" onClick="quickCaclShow('');" alt="calculator">
+			<div class="topnav"><a href="index.html">Home</a> / <a href='common-converters.html'>Common Converters</a> /
+				Currency Converter</div>
+			<h1>Currency Converter</h1>
+			<div id="unquickcalc" style="display:none;"></div>
+
+			<div id="ucresult" class="ucresulttext"></div>
+			<form>
+				<table id="uctable">
+					<tr>
+						<td class="uccell"><label for="ucfrom">From:</label><br><input type="text" name="ucfrom"
+								class="ucinput" id="ucfrom" onKeyUp="ucUpdateResult();" autofocus></td>
+						<td class="uccell"><label for="ucto">To:</label><br><input type="text" name="ucto"
+								class="ucinput" id="ucto" style="background-color:#eeeeee;" readonly></td>
+					</tr>
+					<tr>
+						<td class="uccell">
+							<select name="ucfromunit" id="ucfromunit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="USD [United States Dollar] [1]" selected>USD [United States Dollar]
+								</option>
+								<option value="EUR [Euro] [0.91599]">EUR [Euro]</option>
+								<option value="AUD [Australian Dollar] [1.535391]">AUD [Australian Dollar]</option>
+								<option value="CAD [Canadian Dollar] [1.37235]">CAD [Canadian Dollar]</option>
+								<option value="CHF [Swiss Franc] [0.885767]">CHF [Swiss Franc]</option>
+								<option value="CNY [Chinese Yuan] [7.2107]">CNY [Chinese Yuan]</option>
+								<option value="EUR [Euro] [0.91599]">EUR [Euro]</option>
+								<option value="GBP [British Pound Sterling] [0.802762]">GBP [British Pound Sterling]
+								</option>
+								<option value="INR [Indian Rupee] [83.291753]">INR [Indian Rupee]</option>
+								<option value="JPY [Japanese Yen] [149.535]">JPY [Japanese Yen]</option>
+								<option value="MXN [Mexican Peso] [17.2286]">MXN [Mexican Peso]</option>
+								<option value="AED [United Arab Emirates Dirham] [3.67293]">AED [United Arab Emirates
+									Dirham]</option>
+								<option value="AFN [Afghan Afghani] [68.721095]">AFN [Afghan Afghani]</option>
+								<option value="ALL [Albanian Lek] [95.196661]">ALL [Albanian Lek]</option>
+								<option value="AMD [Armenian Dram] [400.751217]">AMD [Armenian Dram]</option>
+								<option value="ANG [Netherlands Antillean Guilder] [1.793489]">ANG [Netherlands
+									Antillean Guilder]</option>
+								<option value="AOA [Angolan Kwanza] [827.716]">AOA [Angolan Kwanza]</option>
+								<option value="ARS [Argentine Peso] [353.975]">ARS [Argentine Peso]</option>
+								<option value="AWG [Aruban Florin] [1.8]">AWG [Aruban Florin]</option>
+								<option value="AZN [Azerbaijani Manat] [1.7]">AZN [Azerbaijani Manat]</option>
+								<option value="BAM [Bosnia-Herzegovina Convertible Mark] [1.791108]">BAM
+									[Bosnia-Herzegovina Convertible Mark]</option>
+								<option value="BBD [Barbadian Dollar] [2]">BBD [Barbadian Dollar]</option>
+								<option value="BDT [Bangladeshi Taka] [110.206509]">BDT [Bangladeshi Taka]</option>
+								<option value="BGN [Bulgarian Lev] [1.795129]">BGN [Bulgarian Lev]</option>
+								<option value="BHD [Bahraini Dinar] [0.376924]">BHD [Bahraini Dinar]</option>
+								<option value="BIF [Burundian Franc] [2828.330628]">BIF [Burundian Franc]</option>
+								<option value="BMD [Bermudan Dollar] [1]">BMD [Bermudan Dollar]</option>
+								<option value="BND [Brunei Dollar] [1.344687]">BND [Brunei Dollar]</option>
+								<option value="BOB [Bolivian Boliviano] [6.876688]">BOB [Bolivian Boliviano]</option>
+								<option value="BRL [Brazilian Real] [4.9059]">BRL [Brazilian Real]</option>
+								<option value="BSD [Bahamian Dollar] [1]">BSD [Bahamian Dollar]</option>
+								<option value="BTC [Bitcoin] [0.000027411402]">BTC [Bitcoin]</option>
+								<option value="BTN [Bhutanese Ngultrum] [82.854708]">BTN [Bhutanese Ngultrum]</option>
+								<option value="BWP [Botswanan Pula] [13.348597]">BWP [Botswanan Pula]</option>
+								<option value="BYN [Belarusian Ruble] [3.27808]">BYN [Belarusian Ruble]</option>
+								<option value="BZD [Belize Dollar] [2.005861]">BZD [Belize Dollar]</option>
+								<option value="CDF [Congolese Franc] [2469.896469]">CDF [Congolese Franc]</option>
+								<option value="CLF [Chilean Unit of Account (UF)] [0.032198]">CLF [Chilean Unit of
+									Account (UF)]</option>
+								<option value="CLP [Chilean Peso] [888.43]">CLP [Chilean Peso]</option>
+								<option value="CNH [Chinese Yuan (Offshore)] [7.22246]">CNH [Chinese Yuan (Offshore)]
+								</option>
+								<option value="COP [Colombian Peso] [4066.94445]">COP [Colombian Peso]</option>
+								<option value="CRC [Costa Rican Colón] [528.870284]">CRC [Costa Rican Colón]</option>
+								<option value="CUC [Cuban Convertible Peso] [1]">CUC [Cuban Convertible Peso]</option>
+								<option value="CUP [Cuban Peso] [25.75]">CUP [Cuban Peso]</option>
+								<option value="CVE [Cape Verdean Escudo] [100.979904]">CVE [Cape Verdean Escudo]
+								</option>
+								<option value="CZK [Czech Republic Koruna] [22.43365]">CZK [Czech Republic Koruna]
+								</option>
+								<option value="DJF [Djiboutian Franc] [177.178483]">DJF [Djiboutian Franc]</option>
+								<option value="DKK [Danish Krone] [6.8326]">DKK [Danish Krone]</option>
+								<option value="DOP [Dominican Peso] [56.513572]">DOP [Dominican Peso]</option>
+								<option value="DZD [Algerian Dinar] [134.352]">DZD [Algerian Dinar]</option>
+								<option value="EGP [Egyptian Pound] [30.925]">EGP [Egyptian Pound]</option>
+								<option value="ERN [Eritrean Nakfa] [15]">ERN [Eritrean Nakfa]</option>
+								<option value="ETB [Ethiopian Birr] [55.65612]">ETB [Ethiopian Birr]</option>
+								<option value="FJD [Fijian Dollar] [2.2889]">FJD [Fijian Dollar]</option>
+								<option value="FKP [Falkland Islands Pound] [0.802762]">FKP [Falkland Islands Pound]
+								</option>
+								<option value="GEL [Georgian Lari] [2.695]">GEL [Georgian Lari]</option>
+								<option value="GGP [Guernsey Pound] [0.802762]">GGP [Guernsey Pound]</option>
+								<option value="GHS [Ghanaian Cedi] [11.898897]">GHS [Ghanaian Cedi]</option>
+								<option value="GIP [Gibraltar Pound] [0.802762]">GIP [Gibraltar Pound]</option>
+								<option value="GMD [Gambian Dalasi] [67.25]">GMD [Gambian Dalasi]</option>
+								<option value="GNF [Guinean Franc] [8550.743801]">GNF [Guinean Franc]</option>
+								<option value="GTQ [Guatemalan Quetzal] [7.791565]">GTQ [Guatemalan Quetzal]</option>
+								<option value="GYD [Guyanaese Dollar] [208.196346]">GYD [Guyanaese Dollar]</option>
+								<option value="HKD [Hong Kong Dollar] [7.79725]">HKD [Hong Kong Dollar]</option>
+								<option value="HNL [Honduran Lempira] [24.578965]">HNL [Honduran Lempira]</option>
+								<option value="HRK [Croatian Kuna] [6.90434]">HRK [Croatian Kuna]</option>
+								<option value="HTG [Haitian Gourde] [132.048199]">HTG [Haitian Gourde]</option>
+								<option value="HUF [Hungarian Forint] [347.38]">HUF [Hungarian Forint]</option>
+								<option value="IDR [Indonesian Rupiah] [15424.3]">IDR [Indonesian Rupiah]</option>
+								<option value="ILS [Israeli New Sheqel] [3.71692]">ILS [Israeli New Sheqel]</option>
+								<option value="IMP [Manx pound] [0.802762]">IMP [Manx pound]</option>
+								<option value="IQD [Iraqi Dinar] [1303.630157]">IQD [Iraqi Dinar]</option>
+								<option value="IRR [Iranian Rial] [42262.5]">IRR [Iranian Rial]</option>
+								<option value="ISK [Icelandic Króna] [140.06]">ISK [Icelandic Króna]</option>
+								<option value="JEP [Jersey Pound] [0.802762]">JEP [Jersey Pound]</option>
+								<option value="JMD [Jamaican Dollar] [155.071197]">JMD [Jamaican Dollar]</option>
+								<option value="JOD [Jordanian Dinar] [0.7093]">JOD [Jordanian Dinar]</option>
+								<option value="KES [Kenyan Shilling] [152.3]">KES [Kenyan Shilling]</option>
+								<option value="KGS [Kyrgystani Som] [89.2727]">KGS [Kyrgystani Som]</option>
+								<option value="KHR [Cambodian Riel] [4100.03727]">KHR [Cambodian Riel]</option>
+								<option value="KMF [Comorian Franc] [453.625057]">KMF [Comorian Franc]</option>
+								<option value="KPW [North Korean Won] [900]">KPW [North Korean Won]</option>
+								<option value="KRW [South Korean Won] [1296.38]">KRW [South Korean Won]</option>
+								<option value="KWD [Kuwaiti Dinar] [0.308284]">KWD [Kuwaiti Dinar]</option>
+								<option value="KYD [Cayman Islands Dollar] [0.82925]">KYD [Cayman Islands Dollar]
+								</option>
+								<option value="KZT [Kazakhstani Tenge] [461.733879]">KZT [Kazakhstani Tenge]</option>
+								<option value="LAK [Laotian Kip] [20635.760729]">LAK [Laotian Kip]</option>
+								<option value="LBP [Lebanese Pound] [14956.720219]">LBP [Lebanese Pound]</option>
+								<option value="LKR [Sri Lankan Rupee] [326.42517]">LKR [Sri Lankan Rupee]</option>
+								<option value="LRD [Liberian Dollar] [187.850043]">LRD [Liberian Dollar]</option>
+								<option value="LSL [Lesotho Loti] [18.221987]">LSL [Lesotho Loti]</option>
+								<option value="LYD [Libyan Dinar] [4.821649]">LYD [Libyan Dinar]</option>
+								<option value="MAD [Moroccan Dirham] [10.092862]">MAD [Moroccan Dirham]</option>
+								<option value="MDL [Moldovan Leu] [17.749473]">MDL [Moldovan Leu]</option>
+								<option value="MGA [Malagasy Ariary] [4507.520127]">MGA [Malagasy Ariary]</option>
+								<option value="MKD [Macedonian Denar] [56.665287]">MKD [Macedonian Denar]</option>
+								<option value="MMK [Myanma Kyat] [2089.739336]">MMK [Myanma Kyat]</option>
+								<option value="MNT [Mongolian Tugrik] [3450]">MNT [Mongolian Tugrik]</option>
+								<option value="MOP [Macanese Pataca] [7.993772]">MOP [Macanese Pataca]</option>
+								<option value="MRU [Mauritanian Ouguiya] [39.426714]">MRU [Mauritanian Ouguiya]</option>
+								<option value="MUR [Mauritian Rupee] [44.134794]">MUR [Mauritian Rupee]</option>
+								<option value="MVR [Maldivian Rufiyaa] [15.45]">MVR [Maldivian Rufiyaa]</option>
+								<option value="MWK [Malawian Kwacha] [1675.1722]">MWK [Malawian Kwacha]</option>
+								<option value="MYR [Malaysian Ringgit] [4.68]">MYR [Malaysian Ringgit]</option>
+								<option value="MZN [Mozambican Metical] [63.850001]">MZN [Mozambican Metical]</option>
+								<option value="NAD [Namibian Dollar] [18.37]">NAD [Namibian Dollar]</option>
+								<option value="NGN [Nigerian Naira] [823.298162]">NGN [Nigerian Naira]</option>
+								<option value="NIO [Nicaraguan Córdoba] [36.421082]">NIO [Nicaraguan Córdoba]</option>
+								<option value="NOK [Norwegian Krone] [10.8053]">NOK [Norwegian Krone]</option>
+								<option value="NPR [Nepalese Rupee] [132.56744]">NPR [Nepalese Rupee]</option>
+								<option value="NZD [New Zealand Dollar] [1.667779]">NZD [New Zealand Dollar]</option>
+								<option value="OMR [Omani Rial] [0.38494]">OMR [Omani Rial]</option>
+								<option value="PAB [Panamanian Balboa] [1]">PAB [Panamanian Balboa]</option>
+								<option value="PEN [Peruvian Nuevo Sol] [3.848711]">PEN [Peruvian Nuevo Sol]</option>
+								<option value="PGK [Papua New Guinean Kina] [3.759329]">PGK [Papua New Guinean Kina]
+								</option>
+								<option value="PHP [Philippine Peso] [55.397503]">PHP [Philippine Peso]</option>
+								<option value="PKR [Pakistani Rupee] [285.102822]">PKR [Pakistani Rupee]</option>
+								<option value="PLN [Polish Zloty] [4.018041]">PLN [Polish Zloty]</option>
+								<option value="PYG [Paraguayan Guarani] [7395.05846]">PYG [Paraguayan Guarani]</option>
+								<option value="QAR [Qatari Rial] [3.641]">QAR [Qatari Rial]</option>
+								<option value="RON [Romanian Leu] [4.5598]">RON [Romanian Leu]</option>
+								<option value="RSD [Serbian Dinar] [107.890721]">RSD [Serbian Dinar]</option>
+								<option value="RUB [Russian Ruble] [90.009001]">RUB [Russian Ruble]</option>
+								<option value="RWF [Rwandan Franc] [1227.344463]">RWF [Rwandan Franc]</option>
+								<option value="SAR [Saudi Riyal] [3.75051]">SAR [Saudi Riyal]</option>
+								<option value="SBD [Solomon Islands Dollar] [8.419662]">SBD [Solomon Islands Dollar]
+								</option>
+								<option value="SCR [Seychellois Rupee] [13.11855]">SCR [Seychellois Rupee]</option>
+								<option value="SDG [Sudanese Pound] [601]">SDG [Sudanese Pound]</option>
+								<option value="SEK [Swedish Krona] [10.59397]">SEK [Swedish Krona]</option>
+								<option value="SGD [Singapore Dollar] [1.3442]">SGD [Singapore Dollar]</option>
+								<option value="SHP [Saint Helena Pound] [0.802762]">SHP [Saint Helena Pound]</option>
+								<option value="SLL [Sierra Leonean Leone] [20969.5]">SLL [Sierra Leonean Leone]</option>
+								<option value="SOS [Somali Shilling] [568.707146]">SOS [Somali Shilling]</option>
+								<option value="SRD [Surinamese Dollar] [38.145]">SRD [Surinamese Dollar]</option>
+								<option value="SSP [South Sudanese Pound] [130.26]">SSP [South Sudanese Pound]</option>
+								<option value="STD [São Tomé and Príncipe Dobra (pre-2018)] [22281.8]">STD [São Tomé and
+									Príncipe Dobra (pre-2018)]</option>
+								<option value="STN [São Tomé and Príncipe Dobra] [22.436925]">STN [São Tomé and Príncipe
+									Dobra]</option>
+								<option value="SVC [Salvadoran Colón] [8.707358]">SVC [Salvadoran Colón]</option>
+								<option value="SYP [Syrian Pound] [2512.53]">SYP [Syrian Pound]</option>
+								<option value="SZL [Swazi Lilangeni] [18.216035]">SZL [Swazi Lilangeni]</option>
+								<option value="THB [Thai Baht] [34.828781]">THB [Thai Baht]</option>
+								<option value="TJS [Tajikistani Somoni] [10.886671]">TJS [Tajikistani Somoni]</option>
+								<option value="TMT [Turkmenistani Manat] [3.5]">TMT [Turkmenistani Manat]</option>
+								<option value="TND [Tunisian Dinar] [3.1145]">TND [Tunisian Dinar]</option>
+								<option value="TOP [Tongan Pa anga] [2.382013]">TOP [Tongan Pa anga]</option>
+								<option value="TRY [Turkish Lira] [28.6796]">TRY [Turkish Lira]</option>
+								<option value="TTD [Trinidad and Tobago Dollar] [6.757635]">TTD [Trinidad and Tobago
+									Dollar]</option>
+								<option value="TWD [New Taiwan Dollar] [31.7497]">TWD [New Taiwan Dollar]</option>
+								<option value="TZS [Tanzanian Shilling] [2514]">TZS [Tanzanian Shilling]</option>
+								<option value="UAH [Ukrainian Hryvnia] [35.942398]">UAH [Ukrainian Hryvnia]</option>
+								<option value="UGX [Ugandan Shilling] [3761.177415]">UGX [Ugandan Shilling]</option>
+								<option value="UYU [Uruguayan Peso] [39.712387]">UYU [Uruguayan Peso]</option>
+								<option value="UZS [Uzbekistan Som] [12220.067244]">UZS [Uzbekistan Som]</option>
+							</select>
+						</td>
+						<td class="uccell">
+							<select name="uctounit" id="uctounit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="USD [United States Dollar] [1]">USD [United States Dollar]</option>
+								<option value="EUR [Euro] [0.91599]" selected>EUR [Euro]</option>
+								<option value="AUD [Australian Dollar] [1.535391]">AUD [Australian Dollar]</option>
+								<option value="CAD [Canadian Dollar] [1.37235]">CAD [Canadian Dollar]</option>
+								<option value="CHF [Swiss Franc] [0.885767]">CHF [Swiss Franc]</option>
+								<option value="CNY [Chinese Yuan] [7.2107]">CNY [Chinese Yuan]</option>
+								<option value="EUR [Euro] [0.91599]">EUR [Euro]</option>
+								<option value="GBP [British Pound Sterling] [0.802762]">GBP [British Pound Sterling]
+								</option>
+								<option value="INR [Indian Rupee] [83.291753]">INR [Indian Rupee]</option>
+								<option value="JPY [Japanese Yen] [149.535]">JPY [Japanese Yen]</option>
+								<option value="MXN [Mexican Peso] [17.2286]">MXN [Mexican Peso]</option>
+								<option value="AED [United Arab Emirates Dirham] [3.67293]">AED [United Arab Emirates
+									Dirham]</option>
+								<option value="AFN [Afghan Afghani] [68.721095]">AFN [Afghan Afghani]</option>
+								<option value="ALL [Albanian Lek] [95.196661]">ALL [Albanian Lek]</option>
+								<option value="AMD [Armenian Dram] [400.751217]">AMD [Armenian Dram]</option>
+								<option value="ANG [Netherlands Antillean Guilder] [1.793489]">ANG [Netherlands
+									Antillean Guilder]</option>
+								<option value="AOA [Angolan Kwanza] [827.716]">AOA [Angolan Kwanza]</option>
+								<option value="ARS [Argentine Peso] [353.975]">ARS [Argentine Peso]</option>
+								<option value="AWG [Aruban Florin] [1.8]">AWG [Aruban Florin]</option>
+								<option value="AZN [Azerbaijani Manat] [1.7]">AZN [Azerbaijani Manat]</option>
+								<option value="BAM [Bosnia-Herzegovina Convertible Mark] [1.791108]">BAM
+									[Bosnia-Herzegovina Convertible Mark]</option>
+								<option value="BBD [Barbadian Dollar] [2]">BBD [Barbadian Dollar]</option>
+								<option value="BDT [Bangladeshi Taka] [110.206509]">BDT [Bangladeshi Taka]</option>
+								<option value="BGN [Bulgarian Lev] [1.795129]">BGN [Bulgarian Lev]</option>
+								<option value="BHD [Bahraini Dinar] [0.376924]">BHD [Bahraini Dinar]</option>
+								<option value="BIF [Burundian Franc] [2828.330628]">BIF [Burundian Franc]</option>
+								<option value="BMD [Bermudan Dollar] [1]">BMD [Bermudan Dollar]</option>
+								<option value="BND [Brunei Dollar] [1.344687]">BND [Brunei Dollar]</option>
+								<option value="BOB [Bolivian Boliviano] [6.876688]">BOB [Bolivian Boliviano]</option>
+								<option value="BRL [Brazilian Real] [4.9059]">BRL [Brazilian Real]</option>
+								<option value="BSD [Bahamian Dollar] [1]">BSD [Bahamian Dollar]</option>
+								<option value="BTC [Bitcoin] [0.000027411402]">BTC [Bitcoin]</option>
+								<option value="BTN [Bhutanese Ngultrum] [82.854708]">BTN [Bhutanese Ngultrum]</option>
+								<option value="BWP [Botswanan Pula] [13.348597]">BWP [Botswanan Pula]</option>
+								<option value="BYN [Belarusian Ruble] [3.27808]">BYN [Belarusian Ruble]</option>
+								<option value="BZD [Belize Dollar] [2.005861]">BZD [Belize Dollar]</option>
+								<option value="CDF [Congolese Franc] [2469.896469]">CDF [Congolese Franc]</option>
+								<option value="CLF [Chilean Unit of Account (UF)] [0.032198]">CLF [Chilean Unit of
+									Account (UF)]</option>
+								<option value="CLP [Chilean Peso] [888.43]">CLP [Chilean Peso]</option>
+								<option value="CNH [Chinese Yuan (Offshore)] [7.22246]">CNH [Chinese Yuan (Offshore)]
+								</option>
+								<option value="COP [Colombian Peso] [4066.94445]">COP [Colombian Peso]</option>
+								<option value="CRC [Costa Rican Colón] [528.870284]">CRC [Costa Rican Colón]</option>
+								<option value="CUC [Cuban Convertible Peso] [1]">CUC [Cuban Convertible Peso]</option>
+								<option value="CUP [Cuban Peso] [25.75]">CUP [Cuban Peso]</option>
+								<option value="CVE [Cape Verdean Escudo] [100.979904]">CVE [Cape Verdean Escudo]
+								</option>
+								<option value="CZK [Czech Republic Koruna] [22.43365]">CZK [Czech Republic Koruna]
+								</option>
+								<option value="DJF [Djiboutian Franc] [177.178483]">DJF [Djiboutian Franc]</option>
+								<option value="DKK [Danish Krone] [6.8326]">DKK [Danish Krone]</option>
+								<option value="DOP [Dominican Peso] [56.513572]">DOP [Dominican Peso]</option>
+								<option value="DZD [Algerian Dinar] [134.352]">DZD [Algerian Dinar]</option>
+								<option value="EGP [Egyptian Pound] [30.925]">EGP [Egyptian Pound]</option>
+								<option value="ERN [Eritrean Nakfa] [15]">ERN [Eritrean Nakfa]</option>
+								<option value="ETB [Ethiopian Birr] [55.65612]">ETB [Ethiopian Birr]</option>
+								<option value="FJD [Fijian Dollar] [2.2889]">FJD [Fijian Dollar]</option>
+								<option value="FKP [Falkland Islands Pound] [0.802762]">FKP [Falkland Islands Pound]
+								</option>
+								<option value="GEL [Georgian Lari] [2.695]">GEL [Georgian Lari]</option>
+								<option value="GGP [Guernsey Pound] [0.802762]">GGP [Guernsey Pound]</option>
+								<option value="GHS [Ghanaian Cedi] [11.898897]">GHS [Ghanaian Cedi]</option>
+								<option value="GIP [Gibraltar Pound] [0.802762]">GIP [Gibraltar Pound]</option>
+								<option value="GMD [Gambian Dalasi] [67.25]">GMD [Gambian Dalasi]</option>
+								<option value="GNF [Guinean Franc] [8550.743801]">GNF [Guinean Franc]</option>
+								<option value="GTQ [Guatemalan Quetzal] [7.791565]">GTQ [Guatemalan Quetzal]</option>
+								<option value="GYD [Guyanaese Dollar] [208.196346]">GYD [Guyanaese Dollar]</option>
+								<option value="HKD [Hong Kong Dollar] [7.79725]">HKD [Hong Kong Dollar]</option>
+								<option value="HNL [Honduran Lempira] [24.578965]">HNL [Honduran Lempira]</option>
+								<option value="HRK [Croatian Kuna] [6.90434]">HRK [Croatian Kuna]</option>
+								<option value="HTG [Haitian Gourde] [132.048199]">HTG [Haitian Gourde]</option>
+								<option value="HUF [Hungarian Forint] [347.38]">HUF [Hungarian Forint]</option>
+								<option value="IDR [Indonesian Rupiah] [15424.3]">IDR [Indonesian Rupiah]</option>
+								<option value="ILS [Israeli New Sheqel] [3.71692]">ILS [Israeli New Sheqel]</option>
+								<option value="IMP [Manx pound] [0.802762]">IMP [Manx pound]</option>
+								<option value="IQD [Iraqi Dinar] [1303.630157]">IQD [Iraqi Dinar]</option>
+								<option value="IRR [Iranian Rial] [42262.5]">IRR [Iranian Rial]</option>
+								<option value="ISK [Icelandic Króna] [140.06]">ISK [Icelandic Króna]</option>
+								<option value="JEP [Jersey Pound] [0.802762]">JEP [Jersey Pound]</option>
+								<option value="JMD [Jamaican Dollar] [155.071197]">JMD [Jamaican Dollar]</option>
+								<option value="JOD [Jordanian Dinar] [0.7093]">JOD [Jordanian Dinar]</option>
+								<option value="KES [Kenyan Shilling] [152.3]">KES [Kenyan Shilling]</option>
+								<option value="KGS [Kyrgystani Som] [89.2727]">KGS [Kyrgystani Som]</option>
+								<option value="KHR [Cambodian Riel] [4100.03727]">KHR [Cambodian Riel]</option>
+								<option value="KMF [Comorian Franc] [453.625057]">KMF [Comorian Franc]</option>
+								<option value="KPW [North Korean Won] [900]">KPW [North Korean Won]</option>
+								<option value="KRW [South Korean Won] [1296.38]">KRW [South Korean Won]</option>
+								<option value="KWD [Kuwaiti Dinar] [0.308284]">KWD [Kuwaiti Dinar]</option>
+								<option value="KYD [Cayman Islands Dollar] [0.82925]">KYD [Cayman Islands Dollar]
+								</option>
+								<option value="KZT [Kazakhstani Tenge] [461.733879]">KZT [Kazakhstani Tenge]</option>
+								<option value="LAK [Laotian Kip] [20635.760729]">LAK [Laotian Kip]</option>
+								<option value="LBP [Lebanese Pound] [14956.720219]">LBP [Lebanese Pound]</option>
+								<option value="LKR [Sri Lankan Rupee] [326.42517]">LKR [Sri Lankan Rupee]</option>
+								<option value="LRD [Liberian Dollar] [187.850043]">LRD [Liberian Dollar]</option>
+								<option value="LSL [Lesotho Loti] [18.221987]">LSL [Lesotho Loti]</option>
+								<option value="LYD [Libyan Dinar] [4.821649]">LYD [Libyan Dinar]</option>
+								<option value="MAD [Moroccan Dirham] [10.092862]">MAD [Moroccan Dirham]</option>
+								<option value="MDL [Moldovan Leu] [17.749473]">MDL [Moldovan Leu]</option>
+								<option value="MGA [Malagasy Ariary] [4507.520127]">MGA [Malagasy Ariary]</option>
+								<option value="MKD [Macedonian Denar] [56.665287]">MKD [Macedonian Denar]</option>
+								<option value="MMK [Myanma Kyat] [2089.739336]">MMK [Myanma Kyat]</option>
+								<option value="MNT [Mongolian Tugrik] [3450]">MNT [Mongolian Tugrik]</option>
+								<option value="MOP [Macanese Pataca] [7.993772]">MOP [Macanese Pataca]</option>
+								<option value="MRU [Mauritanian Ouguiya] [39.426714]">MRU [Mauritanian Ouguiya]</option>
+								<option value="MUR [Mauritian Rupee] [44.134794]">MUR [Mauritian Rupee]</option>
+								<option value="MVR [Maldivian Rufiyaa] [15.45]">MVR [Maldivian Rufiyaa]</option>
+								<option value="MWK [Malawian Kwacha] [1675.1722]">MWK [Malawian Kwacha]</option>
+								<option value="MYR [Malaysian Ringgit] [4.68]">MYR [Malaysian Ringgit]</option>
+								<option value="MZN [Mozambican Metical] [63.850001]">MZN [Mozambican Metical]</option>
+								<option value="NAD [Namibian Dollar] [18.37]">NAD [Namibian Dollar]</option>
+								<option value="NGN [Nigerian Naira] [823.298162]">NGN [Nigerian Naira]</option>
+								<option value="NIO [Nicaraguan Córdoba] [36.421082]">NIO [Nicaraguan Córdoba]</option>
+								<option value="NOK [Norwegian Krone] [10.8053]">NOK [Norwegian Krone]</option>
+								<option value="NPR [Nepalese Rupee] [132.56744]">NPR [Nepalese Rupee]</option>
+								<option value="NZD [New Zealand Dollar] [1.667779]">NZD [New Zealand Dollar]</option>
+								<option value="OMR [Omani Rial] [0.38494]">OMR [Omani Rial]</option>
+								<option value="PAB [Panamanian Balboa] [1]">PAB [Panamanian Balboa]</option>
+								<option value="PEN [Peruvian Nuevo Sol] [3.848711]">PEN [Peruvian Nuevo Sol]</option>
+								<option value="PGK [Papua New Guinean Kina] [3.759329]">PGK [Papua New Guinean Kina]
+								</option>
+								<option value="PHP [Philippine Peso] [55.397503]">PHP [Philippine Peso]</option>
+								<option value="PKR [Pakistani Rupee] [285.102822]">PKR [Pakistani Rupee]</option>
+								<option value="PLN [Polish Zloty] [4.018041]">PLN [Polish Zloty]</option>
+								<option value="PYG [Paraguayan Guarani] [7395.05846]">PYG [Paraguayan Guarani]</option>
+								<option value="QAR [Qatari Rial] [3.641]">QAR [Qatari Rial]</option>
+								<option value="RON [Romanian Leu] [4.5598]">RON [Romanian Leu]</option>
+								<option value="RSD [Serbian Dinar] [107.890721]">RSD [Serbian Dinar]</option>
+								<option value="RUB [Russian Ruble] [90.009001]">RUB [Russian Ruble]</option>
+								<option value="RWF [Rwandan Franc] [1227.344463]">RWF [Rwandan Franc]</option>
+								<option value="SAR [Saudi Riyal] [3.75051]">SAR [Saudi Riyal]</option>
+								<option value="SBD [Solomon Islands Dollar] [8.419662]">SBD [Solomon Islands Dollar]
+								</option>
+								<option value="SCR [Seychellois Rupee] [13.11855]">SCR [Seychellois Rupee]</option>
+								<option value="SDG [Sudanese Pound] [601]">SDG [Sudanese Pound]</option>
+								<option value="SEK [Swedish Krona] [10.59397]">SEK [Swedish Krona]</option>
+								<option value="SGD [Singapore Dollar] [1.3442]">SGD [Singapore Dollar]</option>
+								<option value="SHP [Saint Helena Pound] [0.802762]">SHP [Saint Helena Pound]</option>
+								<option value="SLL [Sierra Leonean Leone] [20969.5]">SLL [Sierra Leonean Leone]</option>
+								<option value="SOS [Somali Shilling] [568.707146]">SOS [Somali Shilling]</option>
+								<option value="SRD [Surinamese Dollar] [38.145]">SRD [Surinamese Dollar]</option>
+								<option value="SSP [South Sudanese Pound] [130.26]">SSP [South Sudanese Pound]</option>
+								<option value="STD [São Tomé and Príncipe Dobra (pre-2018)] [22281.8]">STD [São Tomé and
+									Príncipe Dobra (pre-2018)]</option>
+								<option value="STN [São Tomé and Príncipe Dobra] [22.436925]">STN [São Tomé and Príncipe
+									Dobra]</option>
+								<option value="SVC [Salvadoran Colón] [8.707358]">SVC [Salvadoran Colón]</option>
+								<option value="SYP [Syrian Pound] [2512.53]">SYP [Syrian Pound]</option>
+								<option value="SZL [Swazi Lilangeni] [18.216035]">SZL [Swazi Lilangeni]</option>
+								<option value="THB [Thai Baht] [34.828781]">THB [Thai Baht]</option>
+								<option value="TJS [Tajikistani Somoni] [10.886671]">TJS [Tajikistani Somoni]</option>
+								<option value="TMT [Turkmenistani Manat] [3.5]">TMT [Turkmenistani Manat]</option>
+								<option value="TND [Tunisian Dinar] [3.1145]">TND [Tunisian Dinar]</option>
+								<option value="TOP [Tongan Pa anga] [2.382013]">TOP [Tongan Pa anga]</option>
+								<option value="TRY [Turkish Lira] [28.6796]">TRY [Turkish Lira]</option>
+								<option value="TTD [Trinidad and Tobago Dollar] [6.757635]">TTD [Trinidad and Tobago
+									Dollar]</option>
+								<option value="TWD [New Taiwan Dollar] [31.7497]">TWD [New Taiwan Dollar]</option>
+								<option value="TZS [Tanzanian Shilling] [2514]">TZS [Tanzanian Shilling]</option>
+								<option value="UAH [Ukrainian Hryvnia] [35.942398]">UAH [Ukrainian Hryvnia]</option>
+								<option value="UGX [Ugandan Shilling] [3761.177415]">UGX [Ugandan Shilling]</option>
+								<option value="UYU [Uruguayan Peso] [39.712387]">UYU [Uruguayan Peso]</option>
+								<option value="UZS [Uzbekistan Som] [12220.067244]">UZS [Uzbekistan Som]</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<script>noValidation = 0; function timeConverter(UNIX_timestamp) {
+					var a = new Date(UNIX_timestamp * 1000);
+					var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+					var year = a.getFullYear();
+					var month = months[a.getMonth()];
+					var date = a.getDate();
+					var hour = a.getHours();
+					var min = a.getMinutes();
+					var sec = a.getSeconds();
+					var time = month + '. ' + date + ', ' + year + ' ' + hour + ':' + min + ':' + sec;
+					return time;
+				}
+				document.write("<div style=\"font-size:12px;text-align:center;\">based on the " + timeConverter(1700362801) + " exchange rate from openexchangerates.org.</div>");</script>
+			<h3>Popular Currency Conversions</h3>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" id="homelist">
+				<tr>
+					<td valign="top" width="50%">
+						<ul>
+							<li><a href="currency/eur-to-usd.html">EUR to USD</a></li>
+							<li><a href="currency/gbp-to-usd.html">GBP to USD</a></li>
+							<li><a href="currency/mxn-to-usd.html">MXN to USD</a></li>
+							<li><a href="currency/aud-to-usd.html">AUD to USD</a></li>
+							<li><a href="currency/brl-to-usd.html">BRL to USD</a></li>
+							<li><a href="currency/cad-to-usd.html">CAD to USD</a></li>
+							<li><a href="currency/chf-to-usd.html">CHF to USD</a></li>
+							<li><a href="currency/cny-to-usd.html">CNY to USD</a></li>
+							<li><a href="currency/inr-to-usd.html">INR to USD</a></li>
+							<li><a href="currency/jpy-to-usd.html">JPY to USD</a></li>
+							<li><a href="currency/rub-to-usd.html">RUB to USD</a></li>
+							<li><a href="currency/hkd-to-usd.html">HKD to USD</a></li>
+							<li><a href="currency/btc-to-usd.html">BTC to USD</a></li>
+							<li><a href="currency/aud-to-btc.html">AUD to BTC</a></li>
+							<li><a href="currency/brl-to-btc.html">BRL to BTC</a></li>
+							<li><a href="currency/cad-to-btc.html">CAD to BTC</a></li>
+							<li><a href="currency/chf-to-btc.html">CHF to BTC</a></li>
+							<li><a href="currency/eur-to-btc.html">EUR to BTC</a></li>
+							<li><a href="currency/gbp-to-btc.html">GBP to BTC</a></li>
+							<li><a href="currency/inr-to-btc.html">INR to BTC</a></li>
+							<li><a href="currency/jpy-to-btc.html">JPY to BTC</a></li>
+							<li><a href="currency/mxn-to-btc.html">MXN to BTC</a></li>
+							<li><a href="currency/rub-to-btc.html">RUB to BTC</a></li>
+						</ul>
+					</td>
+					<td valign="top" width="50%">
+						<ul>
+							<li><a href="currency/usd-to-eur.html">USD to EUR</a></li>
+							<li><a href="currency/usd-to-gbp.html">USD to GBP</a></li>
+							<li><a href="currency/usd-to-mxn.html">USD to MXN</a></li>
+							<li><a href="currency/usd-to-aud.html">USD to AUD</a></li>
+							<li><a href="currency/usd-to-brl.html">USD to BRL</a></li>
+							<li><a href="currency/usd-to-cad.html">USD to CAD</a></li>
+							<li><a href="currency/usd-to-chf.html">USD to CHF</a></li>
+							<li><a href="currency/usd-to-cny.html">USD to CNY</a></li>
+							<li><a href="currency/usd-to-inr.html">USD to INR</a></li>
+							<li><a href="currency/usd-to-jpy.html">USD to JPY</a></li>
+							<li><a href="currency/usd-to-rub.html">USD to RUB</a></li>
+							<li><a href="currency/usd-to-hkd.html">USD to HKD</a></li>
+							<li><a href="currency/usd-to-btc.html">USD to BTC</a></li>
+							<li><a href="currency/btc-to-aud.html">BTC to AUD</a></li>
+							<li><a href="currency/btc-to-brl.html">BTC to BRL</a></li>
+							<li><a href="currency/btc-to-cad.html">BTC to CAD</a></li>
+							<li><a href="currency/btc-to-chf.html">BTC to CHF</a></li>
+							<li><a href="currency/btc-to-eur.html">BTC to EUR</a></li>
+							<li><a href="currency/btc-to-gbp.html">BTC to GBP</a></li>
+							<li><a href="currency/btc-to-inr.html">BTC to INR</a></li>
+							<li><a href="currency/btc-to-jpy.html">BTC to JPY</a></li>
+							<li><a href="currency/btc-to-mxn.html">BTC to MXN</a></li>
+							<li><a href="currency/btc-to-rub.html">BTC to RUB</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table><br>
+			<h3>Complete list of currency units for conversion</h3>
+			<ul class="allunits">
+				<li>USD [United States Dollar]</li>
+				<li>1 EUR [Euro] = 1.0917149751 USD [United States Dollar]<div><a href="currency/eur-to-usd.html">EUR to
+							USD</a>, &nbsp; <a href="currency/usd-to-eur.html">USD to EUR</a></div>
+				</li>
+				<li>1 AUD [Australian Dollar] = 0.6512998969 USD [United States Dollar]<div><a
+							href="currency/aud-to-usd.html">AUD to USD</a>, &nbsp; <a
+							href="currency/usd-to-aud.html">USD to AUD</a></div>
+				</li>
+				<li>1 CAD [Canadian Dollar] = 0.7286770867 USD [United States Dollar]<div><a
+							href="currency/cad-to-usd.html">CAD to USD</a>, &nbsp; <a
+							href="currency/usd-to-cad.html">USD to CAD</a></div>
+				</li>
+				<li>1 CHF [Swiss Franc] = 1.1289650664 USD [United States Dollar]<div><a
+							href="currency/chf-to-usd.html">CHF to USD</a>, &nbsp; <a
+							href="currency/usd-to-chf.html">USD to CHF</a></div>
+				</li>
+				<li>1 CNY [Chinese Yuan] = 0.1386827909 USD [United States Dollar]<div><a
+							href="currency/cny-to-usd.html">CNY to USD</a>, &nbsp; <a
+							href="currency/usd-to-cny.html">USD to CNY</a></div>
+				</li>
+				<li>1 EUR [Euro] = 1.0917149751 USD [United States Dollar]<div><a href="currency/eur-to-usd.html">EUR to
+							USD</a>, &nbsp; <a href="currency/usd-to-eur.html">USD to EUR</a></div>
+				</li>
+				<li>1 GBP [British Pound Sterling] = 1.2456992234 USD [United States Dollar]<div><a
+							href="currency/gbp-to-usd.html">GBP to USD</a>, &nbsp; <a
+							href="currency/usd-to-gbp.html">USD to GBP</a></div>
+				</li>
+				<li>1 INR [Indian Rupee] = 0.0120059906 USD [United States Dollar]<div><a
+							href="currency/inr-to-usd.html">INR to USD</a>, &nbsp; <a
+							href="currency/usd-to-inr.html">USD to INR</a></div>
+				</li>
+				<li>1 JPY [Japanese Yen] = 0.0066873976 USD [United States Dollar]<div><a
+							href="currency/jpy-to-usd.html">JPY to USD</a>, &nbsp; <a
+							href="currency/usd-to-jpy.html">USD to JPY</a></div>
+				</li>
+				<li>1 MXN [Mexican Peso] = 0.0580430215 USD [United States Dollar]<div><a
+							href="currency/mxn-to-usd.html">MXN to USD</a>, &nbsp; <a
+							href="currency/usd-to-mxn.html">USD to MXN</a></div>
+				</li>
+				<li>1 AED [United Arab Emirates Dirham] = 0.2722621994 USD [United States Dollar]<div><a
+							href="currency/aed-to-usd.html">AED to USD</a>, &nbsp; <a
+							href="currency/usd-to-aed.html">USD to AED</a></div>
+				</li>
+				<li>1 AFN [Afghan Afghani] = 0.0145515726 USD [United States Dollar]<div><a
+							href="currency/afn-to-usd.html">AFN to USD</a>, &nbsp; <a
+							href="currency/usd-to-afn.html">USD to AFN</a></div>
+				</li>
+				<li>1 ALL [Albanian Lek] = 0.0105045701 USD [United States Dollar]<div><a
+							href="currency/all-to-usd.html">ALL to USD</a>, &nbsp; <a
+							href="currency/usd-to-all.html">USD to ALL</a></div>
+				</li>
+				<li>1 AMD [Armenian Dram] = 0.0024953137 USD [United States Dollar]<div><a
+							href="currency/amd-to-usd.html">AMD to USD</a>, &nbsp; <a
+							href="currency/usd-to-amd.html">USD to AMD</a></div>
+				</li>
+				<li>1 ANG [Netherlands Antillean Guilder] = 0.5575724189 USD [United States Dollar]<div><a
+							href="currency/ang-to-usd.html">ANG to USD</a>, &nbsp; <a
+							href="currency/usd-to-ang.html">USD to ANG</a></div>
+				</li>
+				<li>1 AOA [Angolan Kwanza] = 0.0012081439 USD [United States Dollar]<div><a
+							href="currency/aoa-to-usd.html">AOA to USD</a>, &nbsp; <a
+							href="currency/usd-to-aoa.html">USD to AOA</a></div>
+				</li>
+				<li>1 ARS [Argentine Peso] = 0.0028250583 USD [United States Dollar]<div><a
+							href="currency/ars-to-usd.html">ARS to USD</a>, &nbsp; <a
+							href="currency/usd-to-ars.html">USD to ARS</a></div>
+				</li>
+				<li>1 AWG [Aruban Florin] = 0.5555555556 USD [United States Dollar]<div><a
+							href="currency/awg-to-usd.html">AWG to USD</a>, &nbsp; <a
+							href="currency/usd-to-awg.html">USD to AWG</a></div>
+				</li>
+				<li>1 AZN [Azerbaijani Manat] = 0.5882352941 USD [United States Dollar]<div><a
+							href="currency/azn-to-usd.html">AZN to USD</a>, &nbsp; <a
+							href="currency/usd-to-azn.html">USD to AZN</a></div>
+				</li>
+				<li>1 BAM [Bosnia-Herzegovina Convertible Mark] = 0.5583136249 USD [United States Dollar]<div><a
+							href="currency/bam-to-usd.html">BAM to USD</a>, &nbsp; <a
+							href="currency/usd-to-bam.html">USD to BAM</a></div>
+				</li>
+				<li>1 BBD [Barbadian Dollar] = 0.5 USD [United States Dollar]<div><a href="currency/bbd-to-usd.html">BBD
+							to USD</a>, &nbsp; <a href="currency/usd-to-bbd.html">USD to BBD</a></div>
+				</li>
+				<li>1 BDT [Bangladeshi Taka] = 0.0090738742 USD [United States Dollar]<div><a
+							href="currency/bdt-to-usd.html">BDT to USD</a>, &nbsp; <a
+							href="currency/usd-to-bdt.html">USD to BDT</a></div>
+				</li>
+				<li>1 BGN [Bulgarian Lev] = 0.55706303 USD [United States Dollar]<div><a
+							href="currency/bgn-to-usd.html">BGN to USD</a>, &nbsp; <a
+							href="currency/usd-to-bgn.html">USD to BGN</a></div>
+				</li>
+				<li>1 BHD [Bahraini Dinar] = 2.6530547272 USD [United States Dollar]<div><a
+							href="currency/bhd-to-usd.html">BHD to USD</a>, &nbsp; <a
+							href="currency/usd-to-bhd.html">USD to BHD</a></div>
+				</li>
+				<li>1 BIF [Burundian Franc] = 0.0003535655 USD [United States Dollar]<div><a
+							href="currency/bif-to-usd.html">BIF to USD</a>, &nbsp; <a
+							href="currency/usd-to-bif.html">USD to BIF</a></div>
+				</li>
+				<li>1 BMD [Bermudan Dollar] = 1 USD [United States Dollar]<div><a href="currency/bmd-to-usd.html">BMD to
+							USD</a>, &nbsp; <a href="currency/usd-to-bmd.html">USD to BMD</a></div>
+				</li>
+				<li>1 BND [Brunei Dollar] = 0.7436674854 USD [United States Dollar]<div><a
+							href="currency/bnd-to-usd.html">BND to USD</a>, &nbsp; <a
+							href="currency/usd-to-bnd.html">USD to BND</a></div>
+				</li>
+				<li>1 BOB [Bolivian Boliviano] = 0.1454188412 USD [United States Dollar]<div><a
+							href="currency/bob-to-usd.html">BOB to USD</a>, &nbsp; <a
+							href="currency/usd-to-bob.html">USD to BOB</a></div>
+				</li>
+				<li>1 BRL [Brazilian Real] = 0.2038361972 USD [United States Dollar]<div><a
+							href="currency/brl-to-usd.html">BRL to USD</a>, &nbsp; <a
+							href="currency/usd-to-brl.html">USD to BRL</a></div>
+				</li>
+				<li>1 BSD [Bahamian Dollar] = 1 USD [United States Dollar]<div><a href="currency/bsd-to-usd.html">BSD to
+							USD</a>, &nbsp; <a href="currency/usd-to-bsd.html">USD to BSD</a></div>
+				</li>
+				<li>1 BTC [Bitcoin] = 36481.169405345 USD [United States Dollar]<div><a
+							href="currency/btc-to-usd.html">BTC to USD</a>, &nbsp; <a
+							href="currency/usd-to-btc.html">USD to BTC</a></div>
+				</li>
+				<li>1 BTN [Bhutanese Ngultrum] = 0.0120693202 USD [United States Dollar]<div><a
+							href="currency/btn-to-usd.html">BTN to USD</a>, &nbsp; <a
+							href="currency/usd-to-btn.html">USD to BTN</a></div>
+				</li>
+				<li>1 BWP [Botswanan Pula] = 0.0749142401 USD [United States Dollar]<div><a
+							href="currency/bwp-to-usd.html">BWP to USD</a>, &nbsp; <a
+							href="currency/usd-to-bwp.html">USD to BWP</a></div>
+				</li>
+				<li>1 BYN [Belarusian Ruble] = 0.3050566185 USD [United States Dollar]<div><a
+							href="currency/byn-to-usd.html">BYN to USD</a>, &nbsp; <a
+							href="currency/usd-to-byn.html">USD to BYN</a></div>
+				</li>
+				<li>1 BZD [Belize Dollar] = 0.4985390314 USD [United States Dollar]<div><a
+							href="currency/bzd-to-usd.html">BZD to USD</a>, &nbsp; <a
+							href="currency/usd-to-bzd.html">USD to BZD</a></div>
+				</li>
+				<li>1 CDF [Congolese Franc] = 0.0004048753 USD [United States Dollar]<div><a
+							href="currency/cdf-to-usd.html">CDF to USD</a>, &nbsp; <a
+							href="currency/usd-to-cdf.html">USD to CDF</a></div>
+				</li>
+				<li>1 CLF [Chilean Unit of Account (UF)] = 31.0578296789 USD [United States Dollar]<div><a
+							href="currency/clf-to-usd.html">CLF to USD</a>, &nbsp; <a
+							href="currency/usd-to-clf.html">USD to CLF</a></div>
+				</li>
+				<li>1 CLP [Chilean Peso] = 0.0011255811 USD [United States Dollar]<div><a
+							href="currency/clp-to-usd.html">CLP to USD</a>, &nbsp; <a
+							href="currency/usd-to-clp.html">USD to CLP</a></div>
+				</li>
+				<li>1 CNH [Chinese Yuan (Offshore)] = 0.13845698 USD [United States Dollar]<div><a
+							href="currency/cnh-to-usd.html">CNH to USD</a>, &nbsp; <a
+							href="currency/usd-to-cnh.html">USD to CNH</a></div>
+				</li>
+				<li>1 COP [Colombian Peso] = 0.0002458848 USD [United States Dollar]<div><a
+							href="currency/cop-to-usd.html">COP to USD</a>, &nbsp; <a
+							href="currency/usd-to-cop.html">USD to COP</a></div>
+				</li>
+				<li>1 CRC [Costa Rican Colón] = 0.0018908228 USD [United States Dollar]<div><a
+							href="currency/crc-to-usd.html">CRC to USD</a>, &nbsp; <a
+							href="currency/usd-to-crc.html">USD to CRC</a></div>
+				</li>
+				<li>1 CUC [Cuban Convertible Peso] = 1 USD [United States Dollar]<div><a
+							href="currency/cuc-to-usd.html">CUC to USD</a>, &nbsp; <a
+							href="currency/usd-to-cuc.html">USD to CUC</a></div>
+				</li>
+				<li>1 CUP [Cuban Peso] = 0.0388349515 USD [United States Dollar]<div><a
+							href="currency/cup-to-usd.html">CUP to USD</a>, &nbsp; <a
+							href="currency/usd-to-cup.html">USD to CUP</a></div>
+				</li>
+				<li>1 CVE [Cape Verdean Escudo] = 0.0099029605 USD [United States Dollar]<div><a
+							href="currency/cve-to-usd.html">CVE to USD</a>, &nbsp; <a
+							href="currency/usd-to-cve.html">USD to CVE</a></div>
+				</li>
+				<li>1 CZK [Czech Republic Koruna] = 0.0445758938 USD [United States Dollar]<div><a
+							href="currency/czk-to-usd.html">CZK to USD</a>, &nbsp; <a
+							href="currency/usd-to-czk.html">USD to CZK</a></div>
+				</li>
+				<li>1 DJF [Djiboutian Franc] = 0.0056440262 USD [United States Dollar]<div><a
+							href="currency/djf-to-usd.html">DJF to USD</a>, &nbsp; <a
+							href="currency/usd-to-djf.html">USD to DJF</a></div>
+				</li>
+				<li>1 DKK [Danish Krone] = 0.14635717 USD [United States Dollar]<div><a
+							href="currency/dkk-to-usd.html">DKK to USD</a>, &nbsp; <a
+							href="currency/usd-to-dkk.html">USD to DKK</a></div>
+				</li>
+				<li>1 DOP [Dominican Peso] = 0.0176948645 USD [United States Dollar]<div><a
+							href="currency/dop-to-usd.html">DOP to USD</a>, &nbsp; <a
+							href="currency/usd-to-dop.html">USD to DOP</a></div>
+				</li>
+				<li>1 DZD [Algerian Dinar] = 0.0074431345 USD [United States Dollar]<div><a
+							href="currency/dzd-to-usd.html">DZD to USD</a>, &nbsp; <a
+							href="currency/usd-to-dzd.html">USD to DZD</a></div>
+				</li>
+				<li>1 EGP [Egyptian Pound] = 0.0323362975 USD [United States Dollar]<div><a
+							href="currency/egp-to-usd.html">EGP to USD</a>, &nbsp; <a
+							href="currency/usd-to-egp.html">USD to EGP</a></div>
+				</li>
+				<li>1 ERN [Eritrean Nakfa] = 0.0666666667 USD [United States Dollar]<div><a
+							href="currency/ern-to-usd.html">ERN to USD</a>, &nbsp; <a
+							href="currency/usd-to-ern.html">USD to ERN</a></div>
+				</li>
+				<li>1 ETB [Ethiopian Birr] = 0.017967476 USD [United States Dollar]<div><a
+							href="currency/etb-to-usd.html">ETB to USD</a>, &nbsp; <a
+							href="currency/usd-to-etb.html">USD to ETB</a></div>
+				</li>
+				<li>1 FJD [Fijian Dollar] = 0.4368910831 USD [United States Dollar]<div><a
+							href="currency/fjd-to-usd.html">FJD to USD</a>, &nbsp; <a
+							href="currency/usd-to-fjd.html">USD to FJD</a></div>
+				</li>
+				<li>1 FKP [Falkland Islands Pound] = 1.2456992234 USD [United States Dollar]<div><a
+							href="currency/fkp-to-usd.html">FKP to USD</a>, &nbsp; <a
+							href="currency/usd-to-fkp.html">USD to FKP</a></div>
+				</li>
+				<li>1 GEL [Georgian Lari] = 0.3710575139 USD [United States Dollar]<div><a
+							href="currency/gel-to-usd.html">GEL to USD</a>, &nbsp; <a
+							href="currency/usd-to-gel.html">USD to GEL</a></div>
+				</li>
+				<li>1 GGP [Guernsey Pound] = 1.2456992234 USD [United States Dollar]<div><a
+							href="currency/ggp-to-usd.html">GGP to USD</a>, &nbsp; <a
+							href="currency/usd-to-ggp.html">USD to GGP</a></div>
+				</li>
+				<li>1 GHS [Ghanaian Cedi] = 0.0840414032 USD [United States Dollar]<div><a
+							href="currency/ghs-to-usd.html">GHS to USD</a>, &nbsp; <a
+							href="currency/usd-to-ghs.html">USD to GHS</a></div>
+				</li>
+				<li>1 GIP [Gibraltar Pound] = 1.2456992234 USD [United States Dollar]<div><a
+							href="currency/gip-to-usd.html">GIP to USD</a>, &nbsp; <a
+							href="currency/usd-to-gip.html">USD to GIP</a></div>
+				</li>
+				<li>1 GMD [Gambian Dalasi] = 0.0148698885 USD [United States Dollar]<div><a
+							href="currency/gmd-to-usd.html">GMD to USD</a>, &nbsp; <a
+							href="currency/usd-to-gmd.html">USD to GMD</a></div>
+				</li>
+				<li>1 GNF [Guinean Franc] = 0.0001169489 USD [United States Dollar]<div><a
+							href="currency/gnf-to-usd.html">GNF to USD</a>, &nbsp; <a
+							href="currency/usd-to-gnf.html">USD to GNF</a></div>
+				</li>
+				<li>1 GTQ [Guatemalan Quetzal] = 0.1283439206 USD [United States Dollar]<div><a
+							href="currency/gtq-to-usd.html">GTQ to USD</a>, &nbsp; <a
+							href="currency/usd-to-gtq.html">USD to GTQ</a></div>
+				</li>
+				<li>1 GYD [Guyanaese Dollar] = 0.0048031583 USD [United States Dollar]<div><a
+							href="currency/gyd-to-usd.html">GYD to USD</a>, &nbsp; <a
+							href="currency/usd-to-gyd.html">USD to GYD</a></div>
+				</li>
+				<li>1 HKD [Hong Kong Dollar] = 0.1282503447 USD [United States Dollar]<div><a
+							href="currency/hkd-to-usd.html">HKD to USD</a>, &nbsp; <a
+							href="currency/usd-to-hkd.html">USD to HKD</a></div>
+				</li>
+				<li>1 HNL [Honduran Lempira] = 0.0406851957 USD [United States Dollar]<div><a
+							href="currency/hnl-to-usd.html">HNL to USD</a>, &nbsp; <a
+							href="currency/usd-to-hnl.html">USD to HNL</a></div>
+				</li>
+				<li>1 HRK [Croatian Kuna] = 0.1448364362 USD [United States Dollar]<div><a
+							href="currency/hrk-to-usd.html">HRK to USD</a>, &nbsp; <a
+							href="currency/usd-to-hrk.html">USD to HRK</a></div>
+				</li>
+				<li>1 HTG [Haitian Gourde] = 0.0075729923 USD [United States Dollar]<div><a
+							href="currency/htg-to-usd.html">HTG to USD</a>, &nbsp; <a
+							href="currency/usd-to-htg.html">USD to HTG</a></div>
+				</li>
+				<li>1 HUF [Hungarian Forint] = 0.0028786919 USD [United States Dollar]<div><a
+							href="currency/huf-to-usd.html">HUF to USD</a>, &nbsp; <a
+							href="currency/usd-to-huf.html">USD to HUF</a></div>
+				</li>
+				<li>1 IDR [Indonesian Rupiah] = 6.48328E-5 USD [United States Dollar]<div><a
+							href="currency/idr-to-usd.html">IDR to USD</a>, &nbsp; <a
+							href="currency/usd-to-idr.html">USD to IDR</a></div>
+				</li>
+				<li>1 ILS [Israeli New Sheqel] = 0.2690399578 USD [United States Dollar]<div><a
+							href="currency/ils-to-usd.html">ILS to USD</a>, &nbsp; <a
+							href="currency/usd-to-ils.html">USD to ILS</a></div>
+				</li>
+				<li>1 IMP [Manx pound] = 1.2456992234 USD [United States Dollar]<div><a
+							href="currency/imp-to-usd.html">IMP to USD</a>, &nbsp; <a
+							href="currency/usd-to-imp.html">USD to IMP</a></div>
+				</li>
+				<li>1 IQD [Iraqi Dinar] = 0.0007670887 USD [United States Dollar]<div><a
+							href="currency/iqd-to-usd.html">IQD to USD</a>, &nbsp; <a
+							href="currency/usd-to-iqd.html">USD to IQD</a></div>
+				</li>
+				<li>1 IRR [Iranian Rial] = 2.36616E-5 USD [United States Dollar]<div><a
+							href="currency/irr-to-usd.html">IRR to USD</a>, &nbsp; <a
+							href="currency/usd-to-irr.html">USD to IRR</a></div>
+				</li>
+				<li>1 ISK [Icelandic Króna] = 0.0071397972 USD [United States Dollar]<div><a
+							href="currency/isk-to-usd.html">ISK to USD</a>, &nbsp; <a
+							href="currency/usd-to-isk.html">USD to ISK</a></div>
+				</li>
+				<li>1 JEP [Jersey Pound] = 1.2456992234 USD [United States Dollar]<div><a
+							href="currency/jep-to-usd.html">JEP to USD</a>, &nbsp; <a
+							href="currency/usd-to-jep.html">USD to JEP</a></div>
+				</li>
+				<li>1 JMD [Jamaican Dollar] = 0.0064486508 USD [United States Dollar]<div><a
+							href="currency/jmd-to-usd.html">JMD to USD</a>, &nbsp; <a
+							href="currency/usd-to-jmd.html">USD to JMD</a></div>
+				</li>
+				<li>1 JOD [Jordanian Dinar] = 1.409840688 USD [United States Dollar]<div><a
+							href="currency/jod-to-usd.html">JOD to USD</a>, &nbsp; <a
+							href="currency/usd-to-jod.html">USD to JOD</a></div>
+				</li>
+				<li>1 KES [Kenyan Shilling] = 0.0065659882 USD [United States Dollar]<div><a
+							href="currency/kes-to-usd.html">KES to USD</a>, &nbsp; <a
+							href="currency/usd-to-kes.html">USD to KES</a></div>
+				</li>
+				<li>1 KGS [Kyrgystani Som] = 0.0112016327 USD [United States Dollar]<div><a
+							href="currency/kgs-to-usd.html">KGS to USD</a>, &nbsp; <a
+							href="currency/usd-to-kgs.html">USD to KGS</a></div>
+				</li>
+				<li>1 KHR [Cambodian Riel] = 0.0002439002 USD [United States Dollar]<div><a
+							href="currency/khr-to-usd.html">KHR to USD</a>, &nbsp; <a
+							href="currency/usd-to-khr.html">USD to KHR</a></div>
+				</li>
+				<li>1 KMF [Comorian Franc] = 0.0022044638 USD [United States Dollar]<div><a
+							href="currency/kmf-to-usd.html">KMF to USD</a>, &nbsp; <a
+							href="currency/usd-to-kmf.html">USD to KMF</a></div>
+				</li>
+				<li>1 KPW [North Korean Won] = 0.0011111111 USD [United States Dollar]<div><a
+							href="currency/kpw-to-usd.html">KPW to USD</a>, &nbsp; <a
+							href="currency/usd-to-kpw.html">USD to KPW</a></div>
+				</li>
+				<li>1 KRW [South Korean Won] = 0.0007713788 USD [United States Dollar]<div><a
+							href="currency/krw-to-usd.html">KRW to USD</a>, &nbsp; <a
+							href="currency/usd-to-krw.html">USD to KRW</a></div>
+				</li>
+				<li>1 KWD [Kuwaiti Dinar] = 3.2437622452 USD [United States Dollar]<div><a
+							href="currency/kwd-to-usd.html">KWD to USD</a>, &nbsp; <a
+							href="currency/usd-to-kwd.html">USD to KWD</a></div>
+				</li>
+				<li>1 KYD [Cayman Islands Dollar] = 1.2059089539 USD [United States Dollar]<div><a
+							href="currency/kyd-to-usd.html">KYD to USD</a>, &nbsp; <a
+							href="currency/usd-to-kyd.html">USD to KYD</a></div>
+				</li>
+				<li>1 KZT [Kazakhstani Tenge] = 0.0021657497 USD [United States Dollar]<div><a
+							href="currency/kzt-to-usd.html">KZT to USD</a>, &nbsp; <a
+							href="currency/usd-to-kzt.html">USD to KZT</a></div>
+				</li>
+				<li>1 LAK [Laotian Kip] = 4.84596E-5 USD [United States Dollar]<div><a
+							href="currency/lak-to-usd.html">LAK to USD</a>, &nbsp; <a
+							href="currency/usd-to-lak.html">USD to LAK</a></div>
+				</li>
+				<li>1 LBP [Lebanese Pound] = 6.68596E-5 USD [United States Dollar]<div><a
+							href="currency/lbp-to-usd.html">LBP to USD</a>, &nbsp; <a
+							href="currency/usd-to-lbp.html">USD to LBP</a></div>
+				</li>
+				<li>1 LKR [Sri Lankan Rupee] = 0.0030634893 USD [United States Dollar]<div><a
+							href="currency/lkr-to-usd.html">LKR to USD</a>, &nbsp; <a
+							href="currency/usd-to-lkr.html">USD to LKR</a></div>
+				</li>
+				<li>1 LRD [Liberian Dollar] = 0.0053233951 USD [United States Dollar]<div><a
+							href="currency/lrd-to-usd.html">LRD to USD</a>, &nbsp; <a
+							href="currency/usd-to-lrd.html">USD to LRD</a></div>
+				</li>
+				<li>1 LSL [Lesotho Loti] = 0.0548787572 USD [United States Dollar]<div><a
+							href="currency/lsl-to-usd.html">LSL to USD</a>, &nbsp; <a
+							href="currency/usd-to-lsl.html">USD to LSL</a></div>
+				</li>
+				<li>1 LYD [Libyan Dinar] = 0.2073979255 USD [United States Dollar]<div><a
+							href="currency/lyd-to-usd.html">LYD to USD</a>, &nbsp; <a
+							href="currency/usd-to-lyd.html">USD to LYD</a></div>
+				</li>
+				<li>1 MAD [Moroccan Dirham] = 0.099079924 USD [United States Dollar]<div><a
+							href="currency/mad-to-usd.html">MAD to USD</a>, &nbsp; <a
+							href="currency/usd-to-mad.html">USD to MAD</a></div>
+				</li>
+				<li>1 MDL [Moldovan Leu] = 0.0563397009 USD [United States Dollar]<div><a
+							href="currency/mdl-to-usd.html">MDL to USD</a>, &nbsp; <a
+							href="currency/usd-to-mdl.html">USD to MDL</a></div>
+				</li>
+				<li>1 MGA [Malagasy Ariary] = 0.0002218515 USD [United States Dollar]<div><a
+							href="currency/mga-to-usd.html">MGA to USD</a>, &nbsp; <a
+							href="currency/usd-to-mga.html">USD to MGA</a></div>
+				</li>
+				<li>1 MKD [Macedonian Denar] = 0.0176474885 USD [United States Dollar]<div><a
+							href="currency/mkd-to-usd.html">MKD to USD</a>, &nbsp; <a
+							href="currency/usd-to-mkd.html">USD to MKD</a></div>
+				</li>
+				<li>1 MMK [Myanma Kyat] = 0.0004785286 USD [United States Dollar]<div><a
+							href="currency/mmk-to-usd.html">MMK to USD</a>, &nbsp; <a
+							href="currency/usd-to-mmk.html">USD to MMK</a></div>
+				</li>
+				<li>1 MNT [Mongolian Tugrik] = 0.0002898551 USD [United States Dollar]<div><a
+							href="currency/mnt-to-usd.html">MNT to USD</a>, &nbsp; <a
+							href="currency/usd-to-mnt.html">USD to MNT</a></div>
+				</li>
+				<li>1 MOP [Macanese Pataca] = 0.1250973883 USD [United States Dollar]<div><a
+							href="currency/mop-to-usd.html">MOP to USD</a>, &nbsp; <a
+							href="currency/usd-to-mop.html">USD to MOP</a></div>
+				</li>
+				<li>1 MRU [Mauritanian Ouguiya] = 0.0253635137 USD [United States Dollar]<div><a
+							href="currency/mru-to-usd.html">MRU to USD</a>, &nbsp; <a
+							href="currency/usd-to-mru.html">USD to MRU</a></div>
+				</li>
+				<li>1 MUR [Mauritian Rupee] = 0.0226578604 USD [United States Dollar]<div><a
+							href="currency/mur-to-usd.html">MUR to USD</a>, &nbsp; <a
+							href="currency/usd-to-mur.html">USD to MUR</a></div>
+				</li>
+				<li>1 MVR [Maldivian Rufiyaa] = 0.0647249191 USD [United States Dollar]<div><a
+							href="currency/mvr-to-usd.html">MVR to USD</a>, &nbsp; <a
+							href="currency/usd-to-mvr.html">USD to MVR</a></div>
+				</li>
+				<li>1 MWK [Malawian Kwacha] = 0.0005969536 USD [United States Dollar]<div><a
+							href="currency/mwk-to-usd.html">MWK to USD</a>, &nbsp; <a
+							href="currency/usd-to-mwk.html">USD to MWK</a></div>
+				</li>
+				<li>1 MYR [Malaysian Ringgit] = 0.2136752137 USD [United States Dollar]<div><a
+							href="currency/myr-to-usd.html">MYR to USD</a>, &nbsp; <a
+							href="currency/usd-to-myr.html">USD to MYR</a></div>
+				</li>
+				<li>1 MZN [Mozambican Metical] = 0.0156617069 USD [United States Dollar]<div><a
+							href="currency/mzn-to-usd.html">MZN to USD</a>, &nbsp; <a
+							href="currency/usd-to-mzn.html">USD to MZN</a></div>
+				</li>
+				<li>1 NAD [Namibian Dollar] = 0.0544365814 USD [United States Dollar]<div><a
+							href="currency/nad-to-usd.html">NAD to USD</a>, &nbsp; <a
+							href="currency/usd-to-nad.html">USD to NAD</a></div>
+				</li>
+				<li>1 NGN [Nigerian Naira] = 0.0012146268 USD [United States Dollar]<div><a
+							href="currency/ngn-to-usd.html">NGN to USD</a>, &nbsp; <a
+							href="currency/usd-to-ngn.html">USD to NGN</a></div>
+				</li>
+				<li>1 NIO [Nicaraguan Córdoba] = 0.0274566253 USD [United States Dollar]<div><a
+							href="currency/nio-to-usd.html">NIO to USD</a>, &nbsp; <a
+							href="currency/usd-to-nio.html">USD to NIO</a></div>
+				</li>
+				<li>1 NOK [Norwegian Krone] = 0.0925471759 USD [United States Dollar]<div><a
+							href="currency/nok-to-usd.html">NOK to USD</a>, &nbsp; <a
+							href="currency/usd-to-nok.html">USD to NOK</a></div>
+				</li>
+				<li>1 NPR [Nepalese Rupee] = 0.0075433304 USD [United States Dollar]<div><a
+							href="currency/npr-to-usd.html">NPR to USD</a>, &nbsp; <a
+							href="currency/usd-to-npr.html">USD to NPR</a></div>
+				</li>
+				<li>1 NZD [New Zealand Dollar] = 0.5995998271 USD [United States Dollar]<div><a
+							href="currency/nzd-to-usd.html">NZD to USD</a>, &nbsp; <a
+							href="currency/usd-to-nzd.html">USD to NZD</a></div>
+				</li>
+				<li>1 OMR [Omani Rial] = 2.5978074505 USD [United States Dollar]<div><a
+							href="currency/omr-to-usd.html">OMR to USD</a>, &nbsp; <a
+							href="currency/usd-to-omr.html">USD to OMR</a></div>
+				</li>
+				<li>1 PAB [Panamanian Balboa] = 1 USD [United States Dollar]<div><a href="currency/pab-to-usd.html">PAB
+							to USD</a>, &nbsp; <a href="currency/usd-to-pab.html">USD to PAB</a></div>
+				</li>
+				<li>1 PEN [Peruvian Nuevo Sol] = 0.2598272513 USD [United States Dollar]<div><a
+							href="currency/pen-to-usd.html">PEN to USD</a>, &nbsp; <a
+							href="currency/usd-to-pen.html">USD to PEN</a></div>
+				</li>
+				<li>1 PGK [Papua New Guinean Kina] = 0.2660049174 USD [United States Dollar]<div><a
+							href="currency/pgk-to-usd.html">PGK to USD</a>, &nbsp; <a
+							href="currency/usd-to-pgk.html">USD to PGK</a></div>
+				</li>
+				<li>1 PHP [Philippine Peso] = 0.0180513551 USD [United States Dollar]<div><a
+							href="currency/php-to-usd.html">PHP to USD</a>, &nbsp; <a
+							href="currency/usd-to-php.html">USD to PHP</a></div>
+				</li>
+				<li>1 PKR [Pakistani Rupee] = 0.0035075065 USD [United States Dollar]<div><a
+							href="currency/pkr-to-usd.html">PKR to USD</a>, &nbsp; <a
+							href="currency/usd-to-pkr.html">USD to PKR</a></div>
+				</li>
+				<li>1 PLN [Polish Zloty] = 0.2488775003 USD [United States Dollar]<div><a
+							href="currency/pln-to-usd.html">PLN to USD</a>, &nbsp; <a
+							href="currency/usd-to-pln.html">USD to PLN</a></div>
+				</li>
+				<li>1 PYG [Paraguayan Guarani] = 0.0001352254 USD [United States Dollar]<div><a
+							href="currency/pyg-to-usd.html">PYG to USD</a>, &nbsp; <a
+							href="currency/usd-to-pyg.html">USD to PYG</a></div>
+				</li>
+				<li>1 QAR [Qatari Rial] = 0.2746498215 USD [United States Dollar]<div><a
+							href="currency/qar-to-usd.html">QAR to USD</a>, &nbsp; <a
+							href="currency/usd-to-qar.html">USD to QAR</a></div>
+				</li>
+				<li>1 RON [Romanian Leu] = 0.2193078644 USD [United States Dollar]<div><a
+							href="currency/ron-to-usd.html">RON to USD</a>, &nbsp; <a
+							href="currency/usd-to-ron.html">USD to RON</a></div>
+				</li>
+				<li>1 RSD [Serbian Dinar] = 0.0092686377 USD [United States Dollar]<div><a
+							href="currency/rsd-to-usd.html">RSD to USD</a>, &nbsp; <a
+							href="currency/usd-to-rsd.html">USD to RSD</a></div>
+				</li>
+				<li>1 RUB [Russian Ruble] = 0.01111 USD [United States Dollar]<div><a
+							href="currency/rub-to-usd.html">RUB to USD</a>, &nbsp; <a
+							href="currency/usd-to-rub.html">USD to RUB</a></div>
+				</li>
+				<li>1 RWF [Rwandan Franc] = 0.0008147672 USD [United States Dollar]<div><a
+							href="currency/rwf-to-usd.html">RWF to USD</a>, &nbsp; <a
+							href="currency/usd-to-rwf.html">USD to RWF</a></div>
+				</li>
+				<li>1 SAR [Saudi Riyal] = 0.2666304049 USD [United States Dollar]<div><a
+							href="currency/sar-to-usd.html">SAR to USD</a>, &nbsp; <a
+							href="currency/usd-to-sar.html">USD to SAR</a></div>
+				</li>
+				<li>1 SBD [Solomon Islands Dollar] = 0.1187696133 USD [United States Dollar]<div><a
+							href="currency/sbd-to-usd.html">SBD to USD</a>, &nbsp; <a
+							href="currency/usd-to-sbd.html">USD to SBD</a></div>
+				</li>
+				<li>1 SCR [Seychellois Rupee] = 0.0762279368 USD [United States Dollar]<div><a
+							href="currency/scr-to-usd.html">SCR to USD</a>, &nbsp; <a
+							href="currency/usd-to-scr.html">USD to SCR</a></div>
+				</li>
+				<li>1 SDG [Sudanese Pound] = 0.0016638935 USD [United States Dollar]<div><a
+							href="currency/sdg-to-usd.html">SDG to USD</a>, &nbsp; <a
+							href="currency/usd-to-sdg.html">USD to SDG</a></div>
+				</li>
+				<li>1 SEK [Swedish Krona] = 0.09439332 USD [United States Dollar]<div><a
+							href="currency/sek-to-usd.html">SEK to USD</a>, &nbsp; <a
+							href="currency/usd-to-sek.html">USD to SEK</a></div>
+				</li>
+				<li>1 SGD [Singapore Dollar] = 0.7439369141 USD [United States Dollar]<div><a
+							href="currency/sgd-to-usd.html">SGD to USD</a>, &nbsp; <a
+							href="currency/usd-to-sgd.html">USD to SGD</a></div>
+				</li>
+				<li>1 SHP [Saint Helena Pound] = 1.2456992234 USD [United States Dollar]<div><a
+							href="currency/shp-to-usd.html">SHP to USD</a>, &nbsp; <a
+							href="currency/usd-to-shp.html">USD to SHP</a></div>
+				</li>
+				<li>1 SLL [Sierra Leonean Leone] = 4.76883E-5 USD [United States Dollar]<div><a
+							href="currency/sll-to-usd.html">SLL to USD</a>, &nbsp; <a
+							href="currency/usd-to-sll.html">USD to SLL</a></div>
+				</li>
+				<li>1 SOS [Somali Shilling] = 0.0017583742 USD [United States Dollar]<div><a
+							href="currency/sos-to-usd.html">SOS to USD</a>, &nbsp; <a
+							href="currency/usd-to-sos.html">USD to SOS</a></div>
+				</li>
+				<li>1 SRD [Surinamese Dollar] = 0.0262157557 USD [United States Dollar]<div><a
+							href="currency/srd-to-usd.html">SRD to USD</a>, &nbsp; <a
+							href="currency/usd-to-srd.html">USD to SRD</a></div>
+				</li>
+				<li>1 SSP [South Sudanese Pound] = 0.0076769538 USD [United States Dollar]<div><a
+							href="currency/ssp-to-usd.html">SSP to USD</a>, &nbsp; <a
+							href="currency/usd-to-ssp.html">USD to SSP</a></div>
+				</li>
+				<li>1 STD [São Tomé and Príncipe Dobra (pre-2018)] = 4.48797E-5 USD [United States Dollar]<div><a
+							href="currency/std-to-usd.html">STD to USD</a>, &nbsp; <a
+							href="currency/usd-to-std.html">USD to STD</a></div>
+				</li>
+				<li>1 STN [São Tomé and Príncipe Dobra] = 0.0445693873 USD [United States Dollar]<div><a
+							href="currency/stn-to-usd.html">STN to USD</a>, &nbsp; <a
+							href="currency/usd-to-stn.html">USD to STN</a></div>
+				</li>
+				<li>1 SVC [Salvadoran Colón] = 0.1148453986 USD [United States Dollar]<div><a
+							href="currency/svc-to-usd.html">SVC to USD</a>, &nbsp; <a
+							href="currency/usd-to-svc.html">USD to SVC</a></div>
+				</li>
+				<li>1 SYP [Syrian Pound] = 0.0003980052 USD [United States Dollar]<div><a
+							href="currency/syp-to-usd.html">SYP to USD</a>, &nbsp; <a
+							href="currency/usd-to-syp.html">USD to SYP</a></div>
+				</li>
+				<li>1 SZL [Swazi Lilangeni] = 0.0548966885 USD [United States Dollar]<div><a
+							href="currency/szl-to-usd.html">SZL to USD</a>, &nbsp; <a
+							href="currency/usd-to-szl.html">USD to SZL</a></div>
+				</li>
+				<li>1 THB [Thai Baht] = 0.0287118863 USD [United States Dollar]<div><a
+							href="currency/thb-to-usd.html">THB to USD</a>, &nbsp; <a
+							href="currency/usd-to-thb.html">USD to THB</a></div>
+				</li>
+				<li>1 TJS [Tajikistani Somoni] = 0.0918554441 USD [United States Dollar]<div><a
+							href="currency/tjs-to-usd.html">TJS to USD</a>, &nbsp; <a
+							href="currency/usd-to-tjs.html">USD to TJS</a></div>
+				</li>
+				<li>1 TMT [Turkmenistani Manat] = 0.2857142857 USD [United States Dollar]<div><a
+							href="currency/tmt-to-usd.html">TMT to USD</a>, &nbsp; <a
+							href="currency/usd-to-tmt.html">USD to TMT</a></div>
+				</li>
+				<li>1 TND [Tunisian Dinar] = 0.3210788249 USD [United States Dollar]<div><a
+							href="currency/tnd-to-usd.html">TND to USD</a>, &nbsp; <a
+							href="currency/usd-to-tnd.html">USD to TND</a></div>
+				</li>
+				<li>1 TOP [Tongan Pa anga] = 0.4198129901 USD [United States Dollar]<div><a
+							href="currency/top-to-usd.html">TOP to USD</a>, &nbsp; <a
+							href="currency/usd-to-top.html">USD to TOP</a></div>
+				</li>
+				<li>1 TRY [Turkish Lira] = 0.0348679898 USD [United States Dollar]<div><a
+							href="currency/try-to-usd.html">TRY to USD</a>, &nbsp; <a
+							href="currency/usd-to-try.html">USD to TRY</a></div>
+				</li>
+				<li>1 TTD [Trinidad and Tobago Dollar] = 0.1479807655 USD [United States Dollar]<div><a
+							href="currency/ttd-to-usd.html">TTD to USD</a>, &nbsp; <a
+							href="currency/usd-to-ttd.html">USD to TTD</a></div>
+				</li>
+				<li>1 TWD [New Taiwan Dollar] = 0.0314963606 USD [United States Dollar]<div><a
+							href="currency/twd-to-usd.html">TWD to USD</a>, &nbsp; <a
+							href="currency/usd-to-twd.html">USD to TWD</a></div>
+				</li>
+				<li>1 TZS [Tanzanian Shilling] = 0.0003977725 USD [United States Dollar]<div><a
+							href="currency/tzs-to-usd.html">TZS to USD</a>, &nbsp; <a
+							href="currency/usd-to-tzs.html">USD to TZS</a></div>
+				</li>
+				<li>1 UAH [Ukrainian Hryvnia] = 0.027822295 USD [United States Dollar]<div><a
+							href="currency/uah-to-usd.html">UAH to USD</a>, &nbsp; <a
+							href="currency/usd-to-uah.html">USD to UAH</a></div>
+				</li>
+				<li>1 UGX [Ugandan Shilling] = 0.0002658742 USD [United States Dollar]<div><a
+							href="currency/ugx-to-usd.html">UGX to USD</a>, &nbsp; <a
+							href="currency/usd-to-ugx.html">USD to UGX</a></div>
+				</li>
+				<li>1 UYU [Uruguayan Peso] = 0.02518106 USD [United States Dollar]<div><a
+							href="currency/uyu-to-usd.html">UYU to USD</a>, &nbsp; <a
+							href="currency/usd-to-uyu.html">USD to UYU</a></div>
+				</li>
+				<li>1 UZS [Uzbekistan Som] = 8.18326E-5 USD [United States Dollar]<div><a
+							href="currency/uzs-to-usd.html">UZS to USD</a>, &nbsp; <a
+							href="currency/usd-to-uzs.html">USD to UZS</a></div>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<div id="rightAdUnit" style="text-align:center;">
+				<div style="min-height:280px; text-align:center;">
+					<script async src="../securepubads.g.doubleclick.net/tag/js/f.txt"></script>
+					<script>
+						window.googletag = window.googletag || { cmd: [] };
+						googletag.cmd.push(function () {
+							googletag.defineSlot('/1057446/UnitConverters-Top-Right-Desktop', [[336, 280], [300, 250]], 'div-gpt-ad-1589566514232-0').addService(googletag.pubads());
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					</script>
+					<!-- /1057446/UnitConverters-Top-Right-Desktop -->
+					<div id='div-gpt-ad-1589566514232-0'>
+						<script>
+							googletag.cmd.push(function () { googletag.display('div-gpt-ad-1589566514232-0'); });
+						</script>
+					</div>
+				</div>
+				<br>
+			</div><br>
+			<div id="othercalc"></div>
+			<script>var navSectionName = "Common Converters";</script>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="footer">
+		<div id="footerin">
+			<div id="footernav"><a href="about-us.html">about us</a> | <a href="about-us.html#terms">terms of use</a> |
+				<a href="about-us.html#privacy">privacy policy</a> | <a href="sitemap.html">sitemap</a> &nbsp; &copy;
+				2008 - 2023 <a href="index.html">unitconverters.net</a></div>
+		</div>
+	</div>
+</body>
+
+<!-- Mirrored from www.unitconverters.net/currency-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:49:10 GMT -->
+
+</html>

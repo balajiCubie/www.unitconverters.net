@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.unitconverters.net/moment-of-inertia-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:53:45 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Moment of Inertia Converter</title>
+	<meta name="description"
+		content="Free online moment of inertia converter - converts between 14 units of moment of inertia, including kilogram square meter, kilogram square centimeter, kilogram square millimeter, gram square centimeter, etc. Also, explore many other unit converters or learn more about moment of inertia unit conversions." />
+	<link rel="stylesheet" href="http://d15gdne58bo42a.cloudfront.net/style-n.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://d15gdne58bo42a.cloudfront.net/js/common.js" async></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="http://d15gdne58bo42a.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d15gdne58bo42a.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d15gdne58bo42a.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<div id="headerout">
+		<div id="header">
+			<div id="logo"><a href="index.html"><img src="http://d15gdne58bo42a.cloudfront.net/images/logo.svg"
+						width="288" height="28" alt="UnitConverters.net"></a></div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="contentout">
+		<div id="content">
+			<img src="http://d15gdne58bo42a.cloudfront.net/images/calculator.svg" width="22" height="31" align="right"
+				border="0" onClick="quickCaclShow('');" alt="calculator">
+			<div class="topnav"><a href="index.html">Home</a> / <a href='engineering-converters.html'>Engineering
+					Converters</a> / Moment of Inertia Converter</div>
+			<h1>Moment of Inertia Converter</h1>
+			<div id="unquickcalc" style="display:none;"></div>
+
+			<div id="ucresult" class="ucresulttext"></div>
+			<form>
+				<table id="uctable">
+					<tr>
+						<td class="uccell"><label for="ucfrom">From:</label><br><input type="text" name="ucfrom"
+								class="ucinput" id="ucfrom" onKeyUp="ucUpdateResult();" autofocus></td>
+						<td class="uccell"><label for="ucto">To:</label><br><input type="text" name="ucto"
+								class="ucinput" id="ucto" style="background-color:#eeeeee;" readonly></td>
+					</tr>
+					<tr>
+						<td class="uccell">
+							<select name="ucfromunit" id="ucfromunit" size="14" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="kilogram square meter [100]" selected>kilogram square meter</option>
+								<option value="kilogram square centimeter [1000000]">kilogram square centimeter</option>
+								<option value="kilogram square millimeter [100000000]">kilogram square millimeter
+								</option>
+								<option value="gram square centimeter [1000000000]">gram square centimeter</option>
+								<option value="gram square millimeter [100000000000]">gram square millimeter</option>
+								<option value="kilogram-force meter square second [10.19716213]">kilogram-force meter
+									square second</option>
+								<option value="kilogram-force centimeter square second [1019.716213]">kilogram-force
+									centimeter square second</option>
+								<option value="ounce square inch [oz*in^2] [5467474.983]">ounce square inch [oz*in^2]
+								</option>
+								<option value="ounce-force inch sq. second [14161.19312]">ounce-force inch sq. second
+								</option>
+								<option value="pound square foot [lb*ft^2] [2373.0360404232]">pound square foot
+									[lb*ft^2]</option>
+								<option value="pound-force foot sq. second [73.75621419]">pound-force foot sq. second
+								</option>
+								<option value="pound square inch [lb*in^2] [341717.18982094]">pound square inch
+									[lb*in^2]</option>
+								<option value="pound-force inch sq. second [885.0745703]">pound-force inch sq. second
+								</option>
+								<option value="slug square foot [slug*ft^2] [73.75621419]">slug square foot [slug*ft^2]
+								</option>
+							</select>
+						</td>
+						<td class="uccell">
+							<select name="uctounit" id="uctounit" size="14" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="kilogram square meter [100]">kilogram square meter</option>
+								<option value="kilogram square centimeter [1000000]" selected>kilogram square centimeter
+								</option>
+								<option value="kilogram square millimeter [100000000]">kilogram square millimeter
+								</option>
+								<option value="gram square centimeter [1000000000]">gram square centimeter</option>
+								<option value="gram square millimeter [100000000000]">gram square millimeter</option>
+								<option value="kilogram-force meter square second [10.19716213]">kilogram-force meter
+									square second</option>
+								<option value="kilogram-force centimeter square second [1019.716213]">kilogram-force
+									centimeter square second</option>
+								<option value="ounce square inch [oz*in^2] [5467474.983]">ounce square inch [oz*in^2]
+								</option>
+								<option value="ounce-force inch sq. second [14161.19312]">ounce-force inch sq. second
+								</option>
+								<option value="pound square foot [lb*ft^2] [2373.0360404232]">pound square foot
+									[lb*ft^2]</option>
+								<option value="pound-force foot sq. second [73.75621419]">pound-force foot sq. second
+								</option>
+								<option value="pound square inch [lb*in^2] [341717.18982094]">pound square inch
+									[lb*in^2]</option>
+								<option value="pound-force inch sq. second [885.0745703]">pound-force inch sq. second
+								</option>
+								<option value="slug square foot [slug*ft^2] [73.75621419]">slug square foot [slug*ft^2]
+								</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<script>noValidation = 0;</script><br>
+			<h3>Complete list of moment of inertia units for conversion</h3>
+			<ul class="allunits">
+				<li>kilogram square meter</li>
+				<li>1 kilogram square centimeter = 0.0001 kilogram square meter<div><a
+							href="moment-of-inertia/kilogram-square-centimeter-to-kilogram-square-meter.html">kilogram
+							square centimeter to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-kilogram-square-centimeter.html">kilogram
+							square meter to kilogram square centimeter</a></div>
+				</li>
+				<li>1 kilogram square millimeter = 1.0E-6 kilogram square meter<div><a
+							href="moment-of-inertia/kilogram-square-millimeter-to-kilogram-square-meter.html">kilogram
+							square millimeter to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-kilogram-square-millimeter.html">kilogram
+							square meter to kilogram square millimeter</a></div>
+				</li>
+				<li>1 gram square centimeter = 1.0E-7 kilogram square meter<div><a
+							href="moment-of-inertia/gram-square-centimeter-to-kilogram-square-meter.html">gram square
+							centimeter to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-gram-square-centimeter.html">kilogram
+							square meter to gram square centimeter</a></div>
+				</li>
+				<li>1 gram square millimeter = 1.0E-9 kilogram square meter<div><a
+							href="moment-of-inertia/gram-square-millimeter-to-kilogram-square-meter.html">gram square
+							millimeter to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-gram-square-millimeter.html">kilogram
+							square meter to gram square millimeter</a></div>
+				</li>
+				<li>1 kilogram-force meter square second = 9.8066499998 kilogram square meter<div><a
+							href="moment-of-inertia/kilogram-force-meter-square-second-to-kilogram-square-meter.html">kilogram-force
+							meter square second to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-kilogram-force-meter-square-second.html">kilogram
+							square meter to kilogram-force meter square second</a></div>
+				</li>
+				<li>1 kilogram-force centimeter square second = 0.0980665 kilogram square meter<div><a
+							href="moment-of-inertia/kilogram-force-centimeter-square-second-to-kilogram-square-meter.html">kilogram-force
+							centimeter square second to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-kilogram-force-centimeter-square-second.html">kilogram
+							square meter to kilogram-force centimeter square second</a></div>
+				</li>
+				<li>1 ounce square inch [oz*in^2] = 1.829E-5 kilogram square meter<div><a
+							href="moment-of-inertia/ounce-square-inch-to-kilogram-square-meter.html">ounce square inch
+							to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-ounce-square-inch.html">kilogram square
+							meter to ounce square inch</a></div>
+				</li>
+				<li>1 ounce-force inch sq. second = 0.0070615519 kilogram square meter<div><a
+							href="moment-of-inertia/ounce-force-inch-sq-second-to-kilogram-square-meter.html">ounce-force
+							inch sq. second to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-ounce-force-inch-sq-second.html">kilogram
+							square meter to ounce-force inch sq. second</a></div>
+				</li>
+				<li>1 pound square foot [lb*ft^2] = 0.0421401101 kilogram square meter<div><a
+							href="moment-of-inertia/pound-square-foot-to-kilogram-square-meter.html">pound square foot
+							to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-pound-square-foot.html">kilogram square
+							meter to pound square foot</a></div>
+				</li>
+				<li>1 pound-force foot sq. second = 1.3558179619 kilogram square meter<div><a
+							href="moment-of-inertia/pound-force-foot-sq-second-to-kilogram-square-meter.html">pound-force
+							foot sq. second to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-pound-force-foot-sq-second.html">kilogram
+							square meter to pound-force foot sq. second</a></div>
+				</li>
+				<li>1 pound square inch [lb*in^2] = 0.0002926397 kilogram square meter<div><a
+							href="moment-of-inertia/pound-square-inch-to-kilogram-square-meter.html">pound square inch
+							to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-pound-square-inch.html">kilogram square
+							meter to pound square inch</a></div>
+				</li>
+				<li>1 pound-force inch sq. second = 0.1129848302 kilogram square meter<div><a
+							href="moment-of-inertia/pound-force-inch-sq-second-to-kilogram-square-meter.html">pound-force
+							inch sq. second to kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-pound-force-inch-sq-second.html">kilogram
+							square meter to pound-force inch sq. second</a></div>
+				</li>
+				<li>1 slug square foot [slug*ft^2] = 1.3558179619 kilogram square meter<div><a
+							href="moment-of-inertia/slug-square-foot-to-kilogram-square-meter.html">slug square foot to
+							kilogram square meter</a>, &nbsp; <a
+							href="moment-of-inertia/kilogram-square-meter-to-slug-square-foot.html">kilogram square
+							meter to slug square foot</a></div>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<div id="rightAdUnit" style="text-align:center;">
+				<div style="min-height:280px; text-align:center;">
+					<script async src="../securepubads.g.doubleclick.net/tag/js/f.txt"></script>
+					<script>
+						window.googletag = window.googletag || { cmd: [] };
+						googletag.cmd.push(function () {
+							googletag.defineSlot('/1057446/UnitConverters-Top-Right-Desktop', [[336, 280], [300, 250]], 'div-gpt-ad-1589566514232-0').addService(googletag.pubads());
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					</script>
+					<!-- /1057446/UnitConverters-Top-Right-Desktop -->
+					<div id='div-gpt-ad-1589566514232-0'>
+						<script>
+							googletag.cmd.push(function () { googletag.display('div-gpt-ad-1589566514232-0'); });
+						</script>
+					</div>
+				</div>
+				<br>
+			</div><br>
+			<div id="othercalc"></div>
+			<script>var navSectionName = "Engineering Converters";</script>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="footer">
+		<div id="footerin">
+			<div id="footernav"><a href="about-us.html">about us</a> | <a href="about-us.html#terms">terms of use</a> |
+				<a href="about-us.html#privacy">privacy policy</a> | <a href="sitemap.html">sitemap</a> &nbsp; &copy;
+				2008 - 2023 <a href="index.html">unitconverters.net</a></div>
+		</div>
+	</div>
+</body>
+
+<!-- Mirrored from www.unitconverters.net/moment-of-inertia-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:53:54 GMT -->
+
+</html>

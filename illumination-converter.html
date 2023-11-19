@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.unitconverters.net/illumination-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:59:21 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Illumination Converter</title>
+	<meta name="description"
+		content="Free online illumination converter - converts between 12 units of illumination, including lux [lx], meter-candle [m*c], centimeter-candle [cm*c], foot-candle [ft*c, fc], etc. Also, explore many other unit converters or learn more about illumination unit conversions." />
+	<link rel="stylesheet" href="http://d15gdne58bo42a.cloudfront.net/style-n.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://d15gdne58bo42a.cloudfront.net/js/common.js" async></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="http://d15gdne58bo42a.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d15gdne58bo42a.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d15gdne58bo42a.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<div id="headerout">
+		<div id="header">
+			<div id="logo"><a href="index.html"><img src="http://d15gdne58bo42a.cloudfront.net/images/logo.svg"
+						width="288" height="28" alt="UnitConverters.net"></a></div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="contentout">
+		<div id="content">
+			<img src="http://d15gdne58bo42a.cloudfront.net/images/calculator.svg" width="22" height="31" align="right"
+				border="0" onClick="quickCaclShow('');" alt="calculator">
+			<div class="topnav"><a href="index.html">Home</a> / <a href='light-converters.html'>Light Converters</a> /
+				Illumination Converter</div>
+			<h1>Illumination Converter</h1>
+			<div id="unquickcalc" style="display:none;"></div>
+
+			<div id="ucresult" class="ucresulttext"></div>
+			<form>
+				<table id="uctable">
+					<tr>
+						<td class="uccell"><label for="ucfrom">From:</label><br><input type="text" name="ucfrom"
+								class="ucinput" id="ucfrom" onKeyUp="ucUpdateResult();" autofocus></td>
+						<td class="uccell"><label for="ucto">To:</label><br><input type="text" name="ucto"
+								class="ucinput" id="ucto" style="background-color:#eeeeee;" readonly></td>
+					</tr>
+					<tr>
+						<td class="uccell">
+							<select name="ucfromunit" id="ucfromunit" size="12" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="lux [lx] [1.0E+16]" selected>lux [lx]</option>
+								<option value="meter-candle [m*c] [1.0E+16]">meter-candle [m*c]</option>
+								<option value="centimeter-candle [cm*c] [1000000000000]">centimeter-candle [cm*c]
+								</option>
+								<option value="foot-candle [ft*c, fc] [9.2903040000084E+14]">foot-candle [ft*c, fc]
+								</option>
+								<option value="flame [2.3225760000021E+14]">flame</option>
+								<option value="phot [ph] [1000000000000]">phot [ph]</option>
+								<option value="nox [1.0E+19]">nox</option>
+								<option value="candela steradian/sq. meter [1.0E+16]">candela steradian/sq. meter
+								</option>
+								<option value="lumen/square meter [lm/m^2] [1.0E+16]">lumen/square meter [lm/m^2]
+								</option>
+								<option value="lumen/square centimeter [1000000000000]">lumen/square centimeter</option>
+								<option value="lumen/square foot [lm/ft^2] [9.2903040000084E+14]">lumen/square foot
+									[lm/ft^2]</option>
+								<option value="watt/sq. cm (at 555 nm) [1464128843.3382]">watt/sq. cm (at 555 nm)
+								</option>
+							</select>
+						</td>
+						<td class="uccell">
+							<select name="uctounit" id="uctounit" size="12" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="lux [lx] [1.0E+16]">lux [lx]</option>
+								<option value="meter-candle [m*c] [1.0E+16]" selected>meter-candle [m*c]</option>
+								<option value="centimeter-candle [cm*c] [1000000000000]">centimeter-candle [cm*c]
+								</option>
+								<option value="foot-candle [ft*c, fc] [9.2903040000084E+14]">foot-candle [ft*c, fc]
+								</option>
+								<option value="flame [2.3225760000021E+14]">flame</option>
+								<option value="phot [ph] [1000000000000]">phot [ph]</option>
+								<option value="nox [1.0E+19]">nox</option>
+								<option value="candela steradian/sq. meter [1.0E+16]">candela steradian/sq. meter
+								</option>
+								<option value="lumen/square meter [lm/m^2] [1.0E+16]">lumen/square meter [lm/m^2]
+								</option>
+								<option value="lumen/square centimeter [1000000000000]">lumen/square centimeter</option>
+								<option value="lumen/square foot [lm/ft^2] [9.2903040000084E+14]">lumen/square foot
+									[lm/ft^2]</option>
+								<option value="watt/sq. cm (at 555 nm) [1464128843.3382]">watt/sq. cm (at 555 nm)
+								</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<script>noValidation = 0;</script><br>
+			<h3>Complete list of illumination units for conversion</h3>
+			<ul class="allunits">
+				<li>lux [lx]</li>
+				<li>1 meter-candle [m*c] = 1 lux [lx]<div><a href="illumination/meter-candle-to-lux.html">meter-candle
+							to lux</a>, &nbsp; <a href="illumination/lux-to-meter-candle.html">lux to meter-candle</a>
+					</div>
+				</li>
+				<li>1 centimeter-candle [cm*c] = 10000 lux [lx]<div><a
+							href="illumination/centimeter-candle-to-lux.html">centimeter-candle to lux</a>, &nbsp; <a
+							href="illumination/lux-to-centimeter-candle.html">lux to centimeter-candle</a></div>
+				</li>
+				<li>1 foot-candle [ft*c, fc] = 10.7639104167 lux [lx]<div><a
+							href="illumination/foot-candle-to-lux.html">foot-candle to lux</a>, &nbsp; <a
+							href="illumination/lux-to-foot-candle.html">lux to foot-candle</a></div>
+				</li>
+				<li>1 flame = 43.0556416668 lux [lx]<div><a href="illumination/flame-to-lux.html">flame to lux</a>,
+						&nbsp; <a href="illumination/lux-to-flame.html">lux to flame</a></div>
+				</li>
+				<li>1 phot [ph] = 10000 lux [lx]<div><a href="illumination/phot-to-lux.html">phot to lux</a>, &nbsp; <a
+							href="illumination/lux-to-phot.html">lux to phot</a></div>
+				</li>
+				<li>1 nox = 0.001 lux [lx]<div><a href="illumination/nox-to-lux.html">nox to lux</a>, &nbsp; <a
+							href="illumination/lux-to-nox.html">lux to nox</a></div>
+				</li>
+				<li>1 candela steradian/sq. meter = 1 lux [lx]<div><a
+							href="illumination/candela-steradian-sq-meter-to-lux.html">candela steradian/sq. meter to
+							lux</a>, &nbsp; <a href="illumination/lux-to-candela-steradian-sq-meter.html">lux to candela
+							steradian/sq. meter</a></div>
+				</li>
+				<li>1 lumen/square meter [lm/m^2] = 1 lux [lx]<div><a
+							href="illumination/lumen-square-meter-to-lux.html">lumen/square meter to lux</a>, &nbsp; <a
+							href="illumination/lux-to-lumen-square-meter.html">lux to lumen/square meter</a></div>
+				</li>
+				<li>1 lumen/square centimeter = 10000 lux [lx]<div><a
+							href="illumination/lumen-square-centimeter-to-lux.html">lumen/square centimeter to lux</a>,
+						&nbsp; <a href="illumination/lux-to-lumen-square-centimeter.html">lux to lumen/square
+							centimeter</a></div>
+				</li>
+				<li>1 lumen/square foot [lm/ft^2] = 10.7639104167 lux [lx]<div><a
+							href="illumination/lumen-square-foot-to-lux.html">lumen/square foot to lux</a>, &nbsp; <a
+							href="illumination/lux-to-lumen-square-foot.html">lux to lumen/square foot</a></div>
+				</li>
+				<li>1 watt/sq. cm (at 555 nm) = 6830000 lux [lx]<div><a
+							href="illumination/watt-sq-cm-at-555-nm-to-lux.html">watt/sq. cm (at 555 nm) to lux</a>,
+						&nbsp; <a href="illumination/lux-to-watt-sq-cm-at-555-nm.html">lux to watt/sq. cm (at 555
+							nm)</a></div>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<div id="rightAdUnit" style="text-align:center;">
+				<div style="min-height:280px; text-align:center;">
+					<script async src="../securepubads.g.doubleclick.net/tag/js/f.txt"></script>
+					<script>
+						window.googletag = window.googletag || { cmd: [] };
+						googletag.cmd.push(function () {
+							googletag.defineSlot('/1057446/UnitConverters-Top-Right-Desktop', [[336, 280], [300, 250]], 'div-gpt-ad-1589566514232-0').addService(googletag.pubads());
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					</script>
+					<!-- /1057446/UnitConverters-Top-Right-Desktop -->
+					<div id='div-gpt-ad-1589566514232-0'>
+						<script>
+							googletag.cmd.push(function () { googletag.display('div-gpt-ad-1589566514232-0'); });
+						</script>
+					</div>
+				</div>
+				<br>
+			</div><br>
+			<div id="othercalc"></div>
+			<script>var navSectionName = "Light Converters";</script>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="footer">
+		<div id="footerin">
+			<div id="footernav"><a href="about-us.html">about us</a> | <a href="about-us.html#terms">terms of use</a> |
+				<a href="about-us.html#privacy">privacy policy</a> | <a href="sitemap.html">sitemap</a> &nbsp; &copy;
+				2008 - 2023 <a href="index.html">unitconverters.net</a></div>
+		</div>
+	</div>
+</body>
+
+<!-- Mirrored from www.unitconverters.net/illumination-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:59:31 GMT -->
+
+</html>

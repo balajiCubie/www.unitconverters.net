@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.unitconverters.net/prefixes-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 04:03:53 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Prefixes Converter</title>
+	<meta name="description"
+		content="Free online prefixes converter - converts between 21 units of prefixes, including none, yotta [Y], zetta [Z], exa [E], etc. Also, explore many other unit converters or learn more about prefixes unit conversions." />
+	<link rel="stylesheet" href="http://d15gdne58bo42a.cloudfront.net/style-n.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://d15gdne58bo42a.cloudfront.net/js/common.js" async></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="http://d15gdne58bo42a.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d15gdne58bo42a.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d15gdne58bo42a.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<div id="headerout">
+		<div id="header">
+			<div id="logo"><a href="index.html"><img src="http://d15gdne58bo42a.cloudfront.net/images/logo.svg"
+						width="288" height="28" alt="UnitConverters.net"></a></div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="contentout">
+		<div id="content">
+			<img src="http://d15gdne58bo42a.cloudfront.net/images/calculator.svg" width="22" height="31" align="right"
+				border="0" onClick="quickCaclShow('');" alt="calculator">
+			<div class="topnav"><a href="index.html">Home</a> / <a href='other-converters.html'>Other Converters</a> /
+				Prefixes Converter</div>
+			<h1>Prefixes Converter</h1>
+			<div id="unquickcalc" style="display:none;"></div>
+
+			<div id="ucresult" class="ucresulttext"></div>
+			<form>
+				<table id="uctable">
+					<tr>
+						<td class="uccell"><label for="ucfrom">From:</label><br><input type="text" name="ucfrom"
+								class="ucinput" id="ucfrom" onKeyUp="ucUpdateResult();" autofocus></td>
+						<td class="uccell"><label for="ucto">To:</label><br><input type="text" name="ucto"
+								class="ucinput" id="ucto" style="background-color:#eeeeee;" readonly></td>
+					</tr>
+					<tr>
+						<td class="uccell">
+							<select name="ucfromunit" id="ucfromunit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="none [1]" selected>none</option>
+								<option value="yotta [Y] [1.0E-24]">yotta [Y]</option>
+								<option value="zetta [Z] [1.0E-21]">zetta [Z]</option>
+								<option value="exa [E] [1.0E-18]">exa [E]</option>
+								<option value="peta [P] [1.0E-15]">peta [P]</option>
+								<option value="tera [T] [1.0E-12]">tera [T]</option>
+								<option value="giga [G] [1.0E-9]">giga [G]</option>
+								<option value="mega [M] [1.0E-6]">mega [M]</option>
+								<option value="kilo [k] [0.001]">kilo [k]</option>
+								<option value="hecto [h] [0.01]">hecto [h]</option>
+								<option value="deka [da] [0.1]">deka [da]</option>
+								<option value="deci [d] [10]">deci [d]</option>
+								<option value="centi [c] [100]">centi [c]</option>
+								<option value="milli [m] [1000]">milli [m]</option>
+								<option value="micro [&#181;] [1000000]">micro [&#181;]</option>
+								<option value="nano [n] [1000000000]">nano [n]</option>
+								<option value="pico [p] [1000000000000]">pico [p]</option>
+								<option value="femto [f] [1.0E+15]">femto [f]</option>
+								<option value="atto [a] [1.0E+18]">atto [a]</option>
+								<option value="zepto [z] [1.0E+21]">zepto [z]</option>
+								<option value="yocto [y] [1.0E+24]">yocto [y]</option>
+							</select>
+						</td>
+						<td class="uccell">
+							<select name="uctounit" id="uctounit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="none [1]">none</option>
+								<option value="yotta [Y] [1.0E-24]" selected>yotta [Y]</option>
+								<option value="zetta [Z] [1.0E-21]">zetta [Z]</option>
+								<option value="exa [E] [1.0E-18]">exa [E]</option>
+								<option value="peta [P] [1.0E-15]">peta [P]</option>
+								<option value="tera [T] [1.0E-12]">tera [T]</option>
+								<option value="giga [G] [1.0E-9]">giga [G]</option>
+								<option value="mega [M] [1.0E-6]">mega [M]</option>
+								<option value="kilo [k] [0.001]">kilo [k]</option>
+								<option value="hecto [h] [0.01]">hecto [h]</option>
+								<option value="deka [da] [0.1]">deka [da]</option>
+								<option value="deci [d] [10]">deci [d]</option>
+								<option value="centi [c] [100]">centi [c]</option>
+								<option value="milli [m] [1000]">milli [m]</option>
+								<option value="micro [&#181;] [1000000]">micro [&#181;]</option>
+								<option value="nano [n] [1000000000]">nano [n]</option>
+								<option value="pico [p] [1000000000000]">pico [p]</option>
+								<option value="femto [f] [1.0E+15]">femto [f]</option>
+								<option value="atto [a] [1.0E+18]">atto [a]</option>
+								<option value="zepto [z] [1.0E+21]">zepto [z]</option>
+								<option value="yocto [y] [1.0E+24]">yocto [y]</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<script>noValidation = 0;</script><br>
+			<h3>Complete list of prefixes units for conversion</h3>
+			<ul class="allunits">
+				<li>none</li>
+				<li>1 yotta [Y] = 1.0E+24 none<div><a href="prefixes/yotta-to-none.html">yotta to none</a>, &nbsp; <a
+							href="prefixes/none-to-yotta.html">none to yotta</a></div>
+				</li>
+				<li>1 zetta [Z] = 1.0E+21 none<div><a href="prefixes/zetta-to-none.html">zetta to none</a>, &nbsp; <a
+							href="prefixes/none-to-zetta.html">none to zetta</a></div>
+				</li>
+				<li>1 exa [E] = 1.0E+18 none<div><a href="prefixes/exa-to-none.html">exa to none</a>, &nbsp; <a
+							href="prefixes/none-to-exa.html">none to exa</a></div>
+				</li>
+				<li>1 peta [P] = 1.0E+15 none<div><a href="prefixes/peta-to-none.html">peta to none</a>, &nbsp; <a
+							href="prefixes/none-to-peta.html">none to peta</a></div>
+				</li>
+				<li>1 tera [T] = 1000000000000 none<div><a href="prefixes/tera-to-none.html">tera to none</a>, &nbsp; <a
+							href="prefixes/none-to-tera.html">none to tera</a></div>
+				</li>
+				<li>1 giga [G] = 1000000000 none<div><a href="prefixes/giga-to-none.html">giga to none</a>, &nbsp; <a
+							href="prefixes/none-to-giga.html">none to giga</a></div>
+				</li>
+				<li>1 mega [M] = 1000000 none<div><a href="prefixes/mega-to-none.html">mega to none</a>, &nbsp; <a
+							href="prefixes/none-to-mega.html">none to mega</a></div>
+				</li>
+				<li>1 kilo [k] = 1000 none<div><a href="prefixes/kilo-to-none.html">kilo to none</a>, &nbsp; <a
+							href="prefixes/none-to-kilo.html">none to kilo</a></div>
+				</li>
+				<li>1 hecto [h] = 100 none<div><a href="prefixes/hecto-to-none.html">hecto to none</a>, &nbsp; <a
+							href="prefixes/none-to-hecto.html">none to hecto</a></div>
+				</li>
+				<li>1 deka [da] = 10 none<div><a href="prefixes/deka-to-none.html">deka to none</a>, &nbsp; <a
+							href="prefixes/none-to-deka.html">none to deka</a></div>
+				</li>
+				<li>1 deci [d] = 0.1 none<div><a href="prefixes/deci-to-none.html">deci to none</a>, &nbsp; <a
+							href="prefixes/none-to-deci.html">none to deci</a></div>
+				</li>
+				<li>1 centi [c] = 0.01 none<div><a href="prefixes/centi-to-none.html">centi to none</a>, &nbsp; <a
+							href="prefixes/none-to-centi.html">none to centi</a></div>
+				</li>
+				<li>1 milli [m] = 0.001 none<div><a href="prefixes/milli-to-none.html">milli to none</a>, &nbsp; <a
+							href="prefixes/none-to-milli.html">none to milli</a></div>
+				</li>
+				<li>1 micro [&#181;] = 1.0E-6 none<div><a href="prefixes/micro-to-none.html">micro to none</a>, &nbsp;
+						<a href="prefixes/none-to-micro.html">none to micro</a></div>
+				</li>
+				<li>1 nano [n] = 1.0E-9 none<div><a href="prefixes/nano-to-none.html">nano to none</a>, &nbsp; <a
+							href="prefixes/none-to-nano.html">none to nano</a></div>
+				</li>
+				<li>1 pico [p] = 1.0E-12 none<div><a href="prefixes/pico-to-none.html">pico to none</a>, &nbsp; <a
+							href="prefixes/none-to-pico.html">none to pico</a></div>
+				</li>
+				<li>1 femto [f] = 1.0E-15 none<div><a href="prefixes/femto-to-none.html">femto to none</a>, &nbsp; <a
+							href="prefixes/none-to-femto.html">none to femto</a></div>
+				</li>
+				<li>1 atto [a] = 1.0E-18 none<div><a href="prefixes/atto-to-none.html">atto to none</a>, &nbsp; <a
+							href="prefixes/none-to-atto.html">none to atto</a></div>
+				</li>
+				<li>1 zepto [z] = 1.0E-21 none<div><a href="prefixes/zepto-to-none.html">zepto to none</a>, &nbsp; <a
+							href="prefixes/none-to-zepto.html">none to zepto</a></div>
+				</li>
+				<li>1 yocto [y] = 1.0E-24 none<div><a href="prefixes/yocto-to-none.html">yocto to none</a>, &nbsp; <a
+							href="prefixes/none-to-yocto.html">none to yocto</a></div>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<div id="rightAdUnit" style="text-align:center;">
+				<div style="min-height:280px; text-align:center;">
+					<script async src="../securepubads.g.doubleclick.net/tag/js/f.txt"></script>
+					<script>
+						window.googletag = window.googletag || { cmd: [] };
+						googletag.cmd.push(function () {
+							googletag.defineSlot('/1057446/UnitConverters-Top-Right-Desktop', [[336, 280], [300, 250]], 'div-gpt-ad-1589566514232-0').addService(googletag.pubads());
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					</script>
+					<!-- /1057446/UnitConverters-Top-Right-Desktop -->
+					<div id='div-gpt-ad-1589566514232-0'>
+						<script>
+							googletag.cmd.push(function () { googletag.display('div-gpt-ad-1589566514232-0'); });
+						</script>
+					</div>
+				</div>
+				<br>
+			</div><br>
+			<div id="othercalc"></div>
+			<script>var navSectionName = "";</script>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="footer">
+		<div id="footerin">
+			<div id="footernav"><a href="about-us.html">about us</a> | <a href="about-us.html#terms">terms of use</a> |
+				<a href="about-us.html#privacy">privacy policy</a> | <a href="sitemap.html">sitemap</a> &nbsp; &copy;
+				2008 - 2023 <a href="index.html">unitconverters.net</a></div>
+		</div>
+	</div>
+</body>
+
+<!-- Mirrored from www.unitconverters.net/prefixes-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 04:04:16 GMT -->
+
+</html>

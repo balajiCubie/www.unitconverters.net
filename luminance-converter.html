@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.unitconverters.net/luminance-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:58:58 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Luminance Converter</title>
+	<meta name="description"
+		content="Free online luminance converter - converts between 19 units of luminance, including candela/square meter, candela/square centimeter, candela/square foot, candela/square inch, etc. Also, explore many other unit converters or learn more about luminance unit conversions." />
+	<link rel="stylesheet" href="http://d15gdne58bo42a.cloudfront.net/style-n.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://d15gdne58bo42a.cloudfront.net/js/common.js" async></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="http://d15gdne58bo42a.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d15gdne58bo42a.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d15gdne58bo42a.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<div id="headerout">
+		<div id="header">
+			<div id="logo"><a href="index.html"><img src="http://d15gdne58bo42a.cloudfront.net/images/logo.svg"
+						width="288" height="28" alt="UnitConverters.net"></a></div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="contentout">
+		<div id="content">
+			<img src="http://d15gdne58bo42a.cloudfront.net/images/calculator.svg" width="22" height="31" align="right"
+				border="0" onClick="quickCaclShow('');" alt="calculator">
+			<div class="topnav"><a href="index.html">Home</a> / <a href='light-converters.html'>Light Converters</a> /
+				Luminance Converter</div>
+			<h1>Luminance Converter</h1>
+			<div id="unquickcalc" style="display:none;"></div>
+
+			<div id="ucresult" class="ucresulttext"></div>
+			<form>
+				<table id="uctable">
+					<tr>
+						<td class="uccell"><label for="ucfrom">From:</label><br><input type="text" name="ucfrom"
+								class="ucinput" id="ucfrom" onKeyUp="ucUpdateResult();" autofocus></td>
+						<td class="uccell"><label for="ucto">To:</label><br><input type="text" name="ucto"
+								class="ucinput" id="ucto" style="background-color:#eeeeee;" readonly></td>
+					</tr>
+					<tr>
+						<td class="uccell">
+							<select name="ucfromunit" id="ucfromunit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="candela/square meter [1.0E+16]" selected>candela/square meter</option>
+								<option value="candela/square centimeter [1000000000000]">candela/square centimeter
+								</option>
+								<option value="candela/square foot [9.2903040000084E+14]">candela/square foot</option>
+								<option value="candela/square inch [6451600000000]">candela/square inch</option>
+								<option value="kilocandela/square meter [10000000000000]">kilocandela/square meter
+								</option>
+								<option value="stilb [sb] [1000000000000]">stilb [sb]</option>
+								<option value="lumen/sq. meter/steradian [1.0E+16]">lumen/sq. meter/steradian</option>
+								<option value="lumen/sq. cm/steradian [1000000000000]">lumen/sq. cm/steradian</option>
+								<option value="lumen/square foot/steradian [9.2903040000084E+14]">lumen/square
+									foot/steradian</option>
+								<option value="watt/sq. cm/steradian (at 555 nm) [1464128843.3382]">watt/sq.
+									cm/steradian (at 555 nm)</option>
+								<option value="nit [nt] [1.0E+16]">nit [nt]</option>
+								<option value="millinit [mnt] [1.0E+19]">millinit [mnt]</option>
+								<option value="lambert [L] [3141592653589.8]">lambert [L]</option>
+								<option value="millilambert [mL] [3.1415926535898E+15]">millilambert [mL]</option>
+								<option value="foot-lambert [fL] [2.9186350796042E+15]">foot-lambert [fL]</option>
+								<option value="apostilb [3.1415926535898E+16]">apostilb</option>
+								<option value="blondel [3.1415926535898E+16]">blondel</option>
+								<option value="bril [3.1415926535898E+23]">bril</option>
+								<option value="skot [3.1415926535898E+19]">skot</option>
+							</select>
+						</td>
+						<td class="uccell">
+							<select name="uctounit" id="uctounit" size="15" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="candela/square meter [1.0E+16]">candela/square meter</option>
+								<option value="candela/square centimeter [1000000000000]" selected>candela/square
+									centimeter</option>
+								<option value="candela/square foot [9.2903040000084E+14]">candela/square foot</option>
+								<option value="candela/square inch [6451600000000]">candela/square inch</option>
+								<option value="kilocandela/square meter [10000000000000]">kilocandela/square meter
+								</option>
+								<option value="stilb [sb] [1000000000000]">stilb [sb]</option>
+								<option value="lumen/sq. meter/steradian [1.0E+16]">lumen/sq. meter/steradian</option>
+								<option value="lumen/sq. cm/steradian [1000000000000]">lumen/sq. cm/steradian</option>
+								<option value="lumen/square foot/steradian [9.2903040000084E+14]">lumen/square
+									foot/steradian</option>
+								<option value="watt/sq. cm/steradian (at 555 nm) [1464128843.3382]">watt/sq.
+									cm/steradian (at 555 nm)</option>
+								<option value="nit [nt] [1.0E+16]">nit [nt]</option>
+								<option value="millinit [mnt] [1.0E+19]">millinit [mnt]</option>
+								<option value="lambert [L] [3141592653589.8]">lambert [L]</option>
+								<option value="millilambert [mL] [3.1415926535898E+15]">millilambert [mL]</option>
+								<option value="foot-lambert [fL] [2.9186350796042E+15]">foot-lambert [fL]</option>
+								<option value="apostilb [3.1415926535898E+16]">apostilb</option>
+								<option value="blondel [3.1415926535898E+16]">blondel</option>
+								<option value="bril [3.1415926535898E+23]">bril</option>
+								<option value="skot [3.1415926535898E+19]">skot</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<script>noValidation = 0;</script><br>
+			<h3>Complete list of luminance units for conversion</h3>
+			<ul class="allunits">
+				<li>candela/square meter</li>
+				<li>1 candela/square centimeter = 10000 candela/square meter<div><a
+							href="luminance/candela-square-centimeter-to-candela-square-meter.html">candela/square
+							centimeter to candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-candela-square-centimeter.html">candela/square meter
+							to candela/square centimeter</a></div>
+				</li>
+				<li>1 candela/square foot = 10.7639104167 candela/square meter<div><a
+							href="luminance/candela-square-foot-to-candela-square-meter.html">candela/square foot to
+							candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-candela-square-foot.html">candela/square meter to
+							candela/square foot</a></div>
+				</li>
+				<li>1 candela/square inch = 1550.0031000062 candela/square meter<div><a
+							href="luminance/candela-square-inch-to-candela-square-meter.html">candela/square inch to
+							candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-candela-square-inch.html">candela/square meter to
+							candela/square inch</a></div>
+				</li>
+				<li>1 kilocandela/square meter = 1000 candela/square meter<div><a
+							href="luminance/kilocandela-square-meter-to-candela-square-meter.html">kilocandela/square
+							meter to candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-kilocandela-square-meter.html">candela/square meter
+							to kilocandela/square meter</a></div>
+				</li>
+				<li>1 stilb [sb] = 10000 candela/square meter<div><a
+							href="luminance/stilb-to-candela-square-meter.html">stilb to candela/square meter</a>,
+						&nbsp; <a href="luminance/candela-square-meter-to-stilb.html">candela/square meter to stilb</a>
+					</div>
+				</li>
+				<li>1 lumen/sq. meter/steradian = 1 candela/square meter<div><a
+							href="luminance/lumen-sq-meter-steradian-to-candela-square-meter.html">lumen/sq.
+							meter/steradian to candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-lumen-sq-meter-steradian.html">candela/square meter
+							to lumen/sq. meter/steradian</a></div>
+				</li>
+				<li>1 lumen/sq. cm/steradian = 10000 candela/square meter<div><a
+							href="luminance/lumen-sq-cm-steradian-to-candela-square-meter.html">lumen/sq. cm/steradian
+							to candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-lumen-sq-cm-steradian.html">candela/square meter to
+							lumen/sq. cm/steradian</a></div>
+				</li>
+				<li>1 lumen/square foot/steradian = 10.7639104167 candela/square meter<div><a
+							href="luminance/lumen-square-foot-steradian-to-candela-square-meter.html">lumen/square
+							foot/steradian to candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-lumen-square-foot-steradian.html">candela/square
+							meter to lumen/square foot/steradian</a></div>
+				</li>
+				<li>1 watt/sq. cm/steradian (at 555 nm) = 6830000 candela/square meter<div><a
+							href="luminance/watt-sq-cm-steradian-at-555-nm-to-candela-square-meter.html">watt/sq.
+							cm/steradian (at 555 nm) to candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-watt-sq-cm-steradian-at-555-nm.html">candela/square
+							meter to watt/sq. cm/steradian (at 555 nm)</a></div>
+				</li>
+				<li>1 nit [nt] = 1 candela/square meter<div><a href="luminance/nit-to-candela-square-meter.html">nit to
+							candela/square meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-nit.html">candela/square meter to nit</a></div>
+				</li>
+				<li>1 millinit [mnt] = 0.001 candela/square meter<div><a
+							href="luminance/millinit-to-candela-square-meter.html">millinit to candela/square meter</a>,
+						&nbsp; <a href="luminance/candela-square-meter-to-millinit.html">candela/square meter to
+							millinit</a></div>
+				</li>
+				<li>1 lambert [L] = 3183.0988618379 candela/square meter<div><a
+							href="luminance/lambert-to-candela-square-meter.html">lambert to candela/square meter</a>,
+						&nbsp; <a href="luminance/candela-square-meter-to-lambert.html">candela/square meter to
+							lambert</a></div>
+				</li>
+				<li>1 millilambert [mL] = 3.1830988618 candela/square meter<div><a
+							href="luminance/millilambert-to-candela-square-meter.html">millilambert to candela/square
+							meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-millilambert.html">candela/square meter to
+							millilambert</a></div>
+				</li>
+				<li>1 foot-lambert [fL] = 3.4262590996 candela/square meter<div><a
+							href="luminance/foot-lambert-to-candela-square-meter.html">foot-lambert to candela/square
+							meter</a>, &nbsp; <a
+							href="luminance/candela-square-meter-to-foot-lambert.html">candela/square meter to
+							foot-lambert</a></div>
+				</li>
+				<li>1 apostilb = 0.3183098862 candela/square meter<div><a
+							href="luminance/apostilb-to-candela-square-meter.html">apostilb to candela/square meter</a>,
+						&nbsp; <a href="luminance/candela-square-meter-to-apostilb.html">candela/square meter to
+							apostilb</a></div>
+				</li>
+				<li>1 blondel = 0.3183098862 candela/square meter<div><a
+							href="luminance/blondel-to-candela-square-meter.html">blondel to candela/square meter</a>,
+						&nbsp; <a href="luminance/candela-square-meter-to-blondel.html">candela/square meter to
+							blondel</a></div>
+				</li>
+				<li>1 bril = 3.1830988618379E-8 candela/square meter<div><a
+							href="luminance/bril-to-candela-square-meter.html">bril to candela/square meter</a>, &nbsp;
+						<a href="luminance/candela-square-meter-to-bril.html">candela/square meter to bril</a></div>
+				</li>
+				<li>1 skot = 0.0003183099 candela/square meter<div><a
+							href="luminance/skot-to-candela-square-meter.html">skot to candela/square meter</a>, &nbsp;
+						<a href="luminance/candela-square-meter-to-skot.html">candela/square meter to skot</a></div>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<div id="rightAdUnit" style="text-align:center;">
+				<div style="min-height:280px; text-align:center;">
+					<script async src="../securepubads.g.doubleclick.net/tag/js/f.txt"></script>
+					<script>
+						window.googletag = window.googletag || { cmd: [] };
+						googletag.cmd.push(function () {
+							googletag.defineSlot('/1057446/UnitConverters-Top-Right-Desktop', [[336, 280], [300, 250]], 'div-gpt-ad-1589566514232-0').addService(googletag.pubads());
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					</script>
+					<!-- /1057446/UnitConverters-Top-Right-Desktop -->
+					<div id='div-gpt-ad-1589566514232-0'>
+						<script>
+							googletag.cmd.push(function () { googletag.display('div-gpt-ad-1589566514232-0'); });
+						</script>
+					</div>
+				</div>
+				<br>
+			</div><br>
+			<div id="othercalc"></div>
+			<script>var navSectionName = "Light Converters";</script>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="footer">
+		<div id="footerin">
+			<div id="footernav"><a href="about-us.html">about us</a> | <a href="about-us.html#terms">terms of use</a> |
+				<a href="about-us.html#privacy">privacy policy</a> | <a href="sitemap.html">sitemap</a> &nbsp; &copy;
+				2008 - 2023 <a href="index.html">unitconverters.net</a></div>
+		</div>
+	</div>
+</body>
+
+<!-- Mirrored from www.unitconverters.net/luminance-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:59:15 GMT -->
+
+</html>

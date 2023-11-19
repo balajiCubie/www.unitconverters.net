@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.unitconverters.net/moment-of-force-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:53:54 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Moment of Force Converter</title>
+	<meta name="description"
+		content="Free online moment of force converter - converts between 12 units of moment of force, including newton meter [N*m], kilonewton meter [kN*m], millinewton meter [mN*m], micronewton meter [&#181;N*m], etc. Also, explore many other unit converters or learn more about moment of force unit conversions." />
+	<link rel="stylesheet" href="http://d15gdne58bo42a.cloudfront.net/style-n.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://d15gdne58bo42a.cloudfront.net/js/common.js" async></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="http://d15gdne58bo42a.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d15gdne58bo42a.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d15gdne58bo42a.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<div id="headerout">
+		<div id="header">
+			<div id="logo"><a href="index.html"><img src="http://d15gdne58bo42a.cloudfront.net/images/logo.svg"
+						width="288" height="28" alt="UnitConverters.net"></a></div>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="contentout">
+		<div id="content">
+			<img src="http://d15gdne58bo42a.cloudfront.net/images/calculator.svg" width="22" height="31" align="right"
+				border="0" onClick="quickCaclShow('');" alt="calculator">
+			<div class="topnav"><a href="index.html">Home</a> / <a href='engineering-converters.html'>Engineering
+					Converters</a> / Moment of Force Converter</div>
+			<h1>Moment of Force Converter</h1>
+			<div id="unquickcalc" style="display:none;"></div>
+
+			<div id="ucresult" class="ucresulttext"></div>
+			<form>
+				<table id="uctable">
+					<tr>
+						<td class="uccell"><label for="ucfrom">From:</label><br><input type="text" name="ucfrom"
+								class="ucinput" id="ucfrom" onKeyUp="ucUpdateResult();" autofocus></td>
+						<td class="uccell"><label for="ucto">To:</label><br><input type="text" name="ucto"
+								class="ucinput" id="ucto" style="background-color:#eeeeee;" readonly></td>
+					</tr>
+					<tr>
+						<td class="uccell">
+							<select name="ucfromunit" id="ucfromunit" size="12" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="newton meter [N*m] [1000]" selected>newton meter [N*m]</option>
+								<option value="kilonewton meter [kN*m] [1]">kilonewton meter [kN*m]</option>
+								<option value="millinewton meter [mN*m] [1000000]">millinewton meter [mN*m]</option>
+								<option value="micronewton meter [&#181;N*m] [1000000000]">micronewton meter [&#181;N*m]
+								</option>
+								<option value="ton-force (short) meter [0.1124045123667]">ton-force (short) meter
+								</option>
+								<option value="ton-force (long) meter [0.100361099235]">ton-force (long) meter</option>
+								<option value="ton-force (metric) meter [0.1019716212978]">ton-force (metric) meter
+								</option>
+								<option value="kilogram-force meter [kgf*m] [101.9716212978]">kilogram-force meter
+									[kgf*m]</option>
+								<option value="gram-force centimeter [10197162.12978]">gram-force centimeter</option>
+								<option value="pound-force foot [lbf*ft] [737.5610331755]">pound-force foot [lbf*ft]
+								</option>
+								<option value="poundal foot [pdl*ft] [23730.36608836]">poundal foot [pdl*ft]</option>
+								<option value="poundal inch [pdl*in] [284764.3930603]">poundal inch [pdl*in]</option>
+							</select>
+						</td>
+						<td class="uccell">
+							<select name="uctounit" id="uctounit" size="12" onChange="ucUpdateResult();"
+								class="ucselect">
+								<option value="newton meter [N*m] [1000]">newton meter [N*m]</option>
+								<option value="kilonewton meter [kN*m] [1]" selected>kilonewton meter [kN*m]</option>
+								<option value="millinewton meter [mN*m] [1000000]">millinewton meter [mN*m]</option>
+								<option value="micronewton meter [&#181;N*m] [1000000000]">micronewton meter [&#181;N*m]
+								</option>
+								<option value="ton-force (short) meter [0.1124045123667]">ton-force (short) meter
+								</option>
+								<option value="ton-force (long) meter [0.100361099235]">ton-force (long) meter</option>
+								<option value="ton-force (metric) meter [0.1019716212978]">ton-force (metric) meter
+								</option>
+								<option value="kilogram-force meter [kgf*m] [101.9716212978]">kilogram-force meter
+									[kgf*m]</option>
+								<option value="gram-force centimeter [10197162.12978]">gram-force centimeter</option>
+								<option value="pound-force foot [lbf*ft] [737.5610331755]">pound-force foot [lbf*ft]
+								</option>
+								<option value="poundal foot [pdl*ft] [23730.36608836]">poundal foot [pdl*ft]</option>
+								<option value="poundal inch [pdl*in] [284764.3930603]">poundal inch [pdl*in]</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<script>noValidation = 0;</script><br>
+			<h3>Complete list of moment of force units for conversion</h3>
+			<ul class="allunits">
+				<li>newton meter [N*m]</li>
+				<li>1 kilonewton meter [kN*m] = 1000 newton meter [N*m]<div><a
+							href="moment-of-force/kilonewton-meter-to-newton-meter.html">kilonewton meter to newton
+							meter</a>, &nbsp; <a href="moment-of-force/newton-meter-to-kilonewton-meter.html">newton
+							meter to kilonewton meter</a></div>
+				</li>
+				<li>1 millinewton meter [mN*m] = 0.001 newton meter [N*m]<div><a
+							href="moment-of-force/millinewton-meter-to-newton-meter.html">millinewton meter to newton
+							meter</a>, &nbsp; <a href="moment-of-force/newton-meter-to-millinewton-meter.html">newton
+							meter to millinewton meter</a></div>
+				</li>
+				<li>1 micronewton meter [&#181;N*m] = 1.0E-6 newton meter [N*m]<div><a
+							href="moment-of-force/micronewton-meter-to-newton-meter.html">micronewton meter to newton
+							meter</a>, &nbsp; <a href="moment-of-force/newton-meter-to-micronewton-meter.html">newton
+							meter to micronewton meter</a></div>
+				</li>
+				<li>1 ton-force (short) meter = 8896.4400000035 newton meter [N*m]<div><a
+							href="moment-of-force/ton-force-short-meter-to-newton-meter.html">ton-force (short) meter to
+							newton meter</a>, &nbsp; <a
+							href="moment-of-force/newton-meter-to-ton-force-short-meter.html">newton meter to ton-force
+							(short) meter</a></div>
+				</li>
+				<li>1 ton-force (long) meter = 9964.0200000047 newton meter [N*m]<div><a
+							href="moment-of-force/ton-force-long-meter-to-newton-meter.html">ton-force (long) meter to
+							newton meter</a>, &nbsp; <a
+							href="moment-of-force/newton-meter-to-ton-force-long-meter.html">newton meter to ton-force
+							(long) meter</a></div>
+				</li>
+				<li>1 ton-force (metric) meter = 9806.6499999993 newton meter [N*m]<div><a
+							href="moment-of-force/ton-force-metric-meter-to-newton-meter.html">ton-force (metric) meter
+							to newton meter</a>, &nbsp; <a
+							href="moment-of-force/newton-meter-to-ton-force-metric-meter.html">newton meter to ton-force
+							(metric) meter</a></div>
+				</li>
+				<li>1 kilogram-force meter [kgf*m] = 9.80665 newton meter [N*m]<div><a
+							href="moment-of-force/kilogram-force-meter-to-newton-meter.html">kilogram-force meter to
+							newton meter</a>, &nbsp; <a
+							href="moment-of-force/newton-meter-to-kilogram-force-meter.html">newton meter to
+							kilogram-force meter</a></div>
+				</li>
+				<li>1 gram-force centimeter = 9.80665E-5 newton meter [N*m]<div><a
+							href="moment-of-force/gram-force-centimeter-to-newton-meter.html">gram-force centimeter to
+							newton meter</a>, &nbsp; <a
+							href="moment-of-force/newton-meter-to-gram-force-centimeter.html">newton meter to gram-force
+							centimeter</a></div>
+				</li>
+				<li>1 pound-force foot [lbf*ft] = 1.35582 newton meter [N*m]<div><a
+							href="moment-of-force/pound-force-foot-to-newton-meter.html">pound-force foot to newton
+							meter</a>, &nbsp; <a href="moment-of-force/newton-meter-to-pound-force-foot.html">newton
+							meter to pound-force foot</a></div>
+				</li>
+				<li>1 poundal foot [pdl*ft] = 0.0421401 newton meter [N*m]<div><a
+							href="moment-of-force/poundal-foot-to-newton-meter.html">poundal foot to newton meter</a>,
+						&nbsp; <a href="moment-of-force/newton-meter-to-poundal-foot.html">newton meter to poundal
+							foot</a></div>
+				</li>
+				<li>1 poundal inch [pdl*in] = 0.003511675 newton meter [N*m]<div><a
+							href="moment-of-force/poundal-inch-to-newton-meter.html">poundal inch to newton meter</a>,
+						&nbsp; <a href="moment-of-force/newton-meter-to-poundal-inch.html">newton meter to poundal
+							inch</a></div>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<div id="rightAdUnit" style="text-align:center;">
+				<div style="min-height:280px; text-align:center;">
+					<script async src="../securepubads.g.doubleclick.net/tag/js/f.txt"></script>
+					<script>
+						window.googletag = window.googletag || { cmd: [] };
+						googletag.cmd.push(function () {
+							googletag.defineSlot('/1057446/UnitConverters-Top-Right-Desktop', [[336, 280], [300, 250]], 'div-gpt-ad-1589566514232-0').addService(googletag.pubads());
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					</script>
+					<!-- /1057446/UnitConverters-Top-Right-Desktop -->
+					<div id='div-gpt-ad-1589566514232-0'>
+						<script>
+							googletag.cmd.push(function () { googletag.display('div-gpt-ad-1589566514232-0'); });
+						</script>
+					</div>
+				</div>
+				<br>
+			</div><br>
+			<div id="othercalc"></div>
+			<script>var navSectionName = "Engineering Converters";</script>
+		</div>
+	</div>
+	<div id="clear"></div>
+	<div id="footer">
+		<div id="footerin">
+			<div id="footernav"><a href="about-us.html">about us</a> | <a href="about-us.html#terms">terms of use</a> |
+				<a href="about-us.html#privacy">privacy policy</a> | <a href="sitemap.html">sitemap</a> &nbsp; &copy;
+				2008 - 2023 <a href="index.html">unitconverters.net</a></div>
+		</div>
+	</div>
+</body>
+
+<!-- Mirrored from www.unitconverters.net/moment-of-force-converter.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 03:54:07 GMT -->
+
+</html>
